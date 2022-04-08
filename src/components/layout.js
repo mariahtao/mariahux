@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import Sidebar from "./Sidebar";
-
+//import Sidebar from "./Sidebar";
 
 const Layout = ({ pageTitle, children }) => {
   return (
