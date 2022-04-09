@@ -6,7 +6,8 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
-    <p>A Senior Product Designer with 5 years of experience in product development, scaling complex softwares, and building and managing design systems. In my work, you will find that research and creativity are a vital part of my problem solving process!</p>
+    <p>A Senior Product Designer with 5 years of experience in product development and design systems. In my work, you will find that research and creativity are a vital part of my problem solving process!</p>
+    <p>Here are my selected projects.</p>
   </Layout>
 
     /*<main>
