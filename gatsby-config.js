@@ -1,6 +1,6 @@
-require("dotenv").config({
+/*require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+})*/
 
 module.exports = {
   siteMetadata: {
@@ -12,9 +12,9 @@ module.exports = {
     {
       resolve: "gatsby-source-sanity",
       options: {
-        projectId: process.env.SANITY_PROJECT_ID,
-        dataset: process.env.SANITY_DATASET,
-        token: process.env.SANITY_TOKEN,
+        projectId: "uct4hy7z",
+        dataset: "production",
+        token: "skKzkUZLRjH56F6jKm67gWeySbJ5vf9mHKotaFBAdfsixo8uOuWbl8JO0vy1RG92mU875T4OWy4Jn1Uj7saAuOtwStgYDFctp9BixuiaoesTBa1gstD7vpuuFnKC8BioncAAHuZQ9hy0f59iv0FnoRcUrE9rNiSRO8qqR8KrUpYqhzYw23mp",
       },
     }, 
   ],
