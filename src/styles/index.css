@@ -28,7 +28,7 @@
     }
 
 	p {
-		@apply text-base text-white mb-2;
+		@apply text-base text-white mb-3;
 	}
 
 	.text-small {

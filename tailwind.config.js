@@ -39,6 +39,9 @@ module.exports = {
         fontFamily: {
           'sans': ['Proxima Nova', ...defaultTheme.fontFamily.sans],
         },
+        /*boxShadow: {
+          'sm-cus': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        },*/
       },
     },
     plugins: [
