@@ -1,19 +1,13 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-
-//import Sidebar from "./Sidebar";
+import Nav from "./Nav.js";
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div>
+    <div className="grid grid-cols-4 gap-6 pt-12 max-w-4xl container ">
       <title>{pageTitle}</title>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-        </ul>
-      </nav>
-      <main>
+      <Nav />
+      <main className="col-span-3">
         <h1>{pageTitle}</h1>
         {children}
       </main>
