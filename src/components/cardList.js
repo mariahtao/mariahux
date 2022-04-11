@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 
 const CardList = ({ children }) => {
     return (
-        <div class="block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-lg shadow-aqua-600/20">
+        <div class="block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-lg shadow-aqua-400/10">
             <main className="col-span-1">
                 {children}
             </main>

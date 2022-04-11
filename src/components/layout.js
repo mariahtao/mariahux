@@ -5,13 +5,13 @@ import Header from "./header.js";
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className="block pt-12 pb-12 max-w-4xl container">
-        <div className="flex flex-row">
-          <div className="order-last md:order-first">
+    <div className="block absolute md:relative pt-0 md:pt-10 pb-14 max-w-4xl container">
+        <div className="flex">
+          <div className="flex-none">
             <Nav />
           </div>
-          <div className="w-full md:flex-grow">
-            <main className="flex-grow md:ml-52">
+          <div className="w-full">
+            <main className="flex-auto pt-4 md:ml-52">
               <h1>{pageTitle}</h1>
               {children}
             </main>

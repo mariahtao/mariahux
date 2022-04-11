@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-		@apply text-4xl text-white mb-8 font-semibold;
+		@apply text-4xl text-white mb-3 font-semibold;
 	}
 
 	h2 {
@@ -36,7 +36,7 @@
 	}
 
 	ul {
-		@apply list-disc text-white mb-6;
+		@apply list-disc text-white md:mb-6;
 	}
 
 	ol {

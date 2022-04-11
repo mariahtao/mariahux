@@ -9,7 +9,8 @@ import Header from "../components/header";
 const AboutPage = () => {
   return (
     <Layout pageTitle="About me">
-        <p> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
+        <text className="font-bold text-s mb-8 text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">SHE / HER / HERS</text>
+        <p className="mt-8"> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
         <p> In my free time, you can find me spending time with my family and friends. I enjoy yoga, crypto, streetwear fashion, and binge-watching anime.</p>
         <img
           src="./assets/about-hs.jpg"
