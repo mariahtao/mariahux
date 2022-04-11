@@ -5,7 +5,7 @@ import fav from "../assets/fav.png";
 
 const Nav = () => {
     return (
-      <nav class="block fixed inset-x-0 md:inset-x-auto h-12 md:h-full z-10 md:w-48 w-full md:p-2 px-8 md:mb-12 bg-grey-300/85 md:bg-transparent backdrop-blur-xl">
+      <nav class="block fixed inset-x-0 md:inset-x-auto h-12 md:h-full z-10 md:w-48 w-full md:p-2 px-8 md:mb-12 bg-grey-300/85 md:bg-transparent backdrop-blur-2xl">
         <ul class="list-none md:mb-12 md:space-y-1 h-full flex flex-row md:flex-col justify-between">
           <div className="flex flex-row md:flex-col tems-center md:justify-start justify-between">
             <li>
@@ -82,7 +82,7 @@ const Nav = () => {
             </div>
           </div>
           <div className="invisible md:visible pb-16">
-            <p className="text-sm text-grey-500">Developed and designed with love by Mariah ❤️</p>
+            <p className="text-sm text-grey-500">Developed and designed with ❤️ by Mariah</p>
             <p className="text-sm text-grey-500">2022 MariahUX © </p>    
         </div>
         </ul>
