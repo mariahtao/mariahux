@@ -4,17 +4,18 @@ import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import CardList from '../components/cardList';
 import CardImg from '../components/cardImg';
+import Header from "../components/header";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
-      <p> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
-      <p> In my free time, you can find me spending time with my family and friends. I enjoy yoga, crypto, streetwear fashion, and binge-watching anime.</p>
-      <img
-        src="./assets/about-hs.jpg"
-      >
-      </img>
-      <div className="grid grid-cols-3 gap-6 mt-12">
+    <Layout pageTitle="About me">
+        <p> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
+        <p> In my free time, you can find me spending time with my family and friends. I enjoy yoga, crypto, streetwear fashion, and binge-watching anime.</p>
+        <img
+          src="./assets/about-hs.jpg"
+        >
+        </img>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
         <CardList>
           <ul class="list-none mb-0">
             <li class="w-full py-1 text-grey-900">Favorite cryptos</li>
@@ -42,7 +43,7 @@ const AboutPage = () => {
       </div>
       <div className="mt-12">
         <h4> Favorite tools </h4>
-        <div className="grid grid-cols-4 gap-6 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-5">
           <CardImg>
             <svg width="24" height="24" ill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#a)">
@@ -116,23 +117,23 @@ const AboutPage = () => {
       </div>
       <div className="mt-12">
         <h4> Favorite design systems + component libraries </h4>
-        <div className="grid grid-cols-3 gap-6 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
           <CardList>
             <ul class="list-none mb-0">
               <li class="w-full py-1 text-grey-900">Human Interface Guidelines</li>
-              <li class="w-full py-1 text-aqua-500 text-sb">@ Apple</li>
+              <li class="w-full text-aqua-500 text-sb">@ Apple</li>
             </ul>
           </CardList>
           <CardList>
             <ul class="list-none mb-0">
               <li class="w-full py-1 text-grey-900">Primer</li>
-              <li class="w-full py-1 text-aqua-500 text-sb">@ Github</li>
+              <li class="w-full text-aqua-500 text-sb">@ Github</li>
             </ul>
           </CardList>
           <CardList>
             <ul class="list-none mb-0">
               <li class="w-full py-1 text-grey-900">Flowbite</li>
-              <li class="w-full py-1 text-aqua-500 text-sb">@ Tailwindcss</li>
+              <li class="w-full text-aqua-500 text-sb">@ Tailwindcss</li>
             </ul>
           </CardList>
         </div>
