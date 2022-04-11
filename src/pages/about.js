@@ -5,17 +5,19 @@ import Layout from '../components/layout';
 import CardList from '../components/cardList';
 import CardImg from '../components/cardImg';
 import Header from "../components/header";
+import headshot from "../assets/headshot.png";
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="About me">
-        <text className="font-bold text-s mb-8 text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">SHE / HER / HERS</text>
-        <p className="mt-8"> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
-        <p> In my free time, you can find me spending time with my family and friends. I enjoy yoga, crypto, streetwear fashion, and binge-watching anime.</p>
-        <img
-          src="./assets/about-hs.jpg"
-        >
-        </img>
+        <div className= "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="md:col-span-1 lg:col-span-2">
+            <text className="font-bold text-s mb-8 text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">SHE / HER / HERS</text>
+            <p className="mt-8"> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
+            <p> In my free time, you can find me spending time with my family and friends. I enjoy yoga, crypto, streetwear fashion, and binge-watching anime.</p>
+          </div>
+          <img className="rounded-full shadow-lg shadow-aqua-400/10" src={headshot} alt="Mariah's headshot"></img>
+        </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
         <CardList>
           <ul class="list-none mb-0">
@@ -83,16 +85,22 @@ const AboutPage = () => {
             </span>
           </CardImg>
           <CardImg>
-            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm16.578 14.978-3.024.605c-.26.052-.26.423 0 .475l3.024.604a.969.969 0 0 1 .76.76l.604 3.024c.052.26.423.26.475 0l.605-3.024a.969.969 0 0 1 .76-.76l3.023-.604c.26-.052.26-.423 0-.475l-3.023-.605a.969.969 0 0 1-.76-.76l-.605-3.023c-.052-.26-.423-.26-.475 0l-.604 3.023a.969.969 0 0 1-.76.76zm-7.383 3.027 1.005-.201a.969.969 0 0 0 .76-.76l.2-1.005c.053-.26.424-.26.476 0l.2 1.005a.969.969 0 0 0 .76.76l1.005.2c.26.053.26.424 0 .476l-1.004.2a.969.969 0 0 0-.76.76l-.201 1.006c-.052.26-.423.26-.475 0l-.201-1.005a.969.969 0 0 0-.76-.76l-1.005-.201c-.26-.052-.26-.423 0-.475zM1.5 9.5c0-4.408 3.592-8 8-8 4.408 0 8 3.232 8 7.2 0 2.648-2.152 4.8-4.8 4.8h-1.416c-.224 0-.4.176-.4.4 0 .096.04.184.104.264.328.376.512.848.512 1.336a2 2 0 0 1-2 2c-4.408 0-8-3.592-8-8zm11.2-.4c0 .664.536 1.2 1.2 1.2.664 0 1.2-.536 1.2-1.2 0-.664-.536-1.2-1.2-1.2-.664 0-1.2.536-1.2 1.2zm-2.4-3.2c0 .664.536 1.2 1.2 1.2.664 0 1.2-.536 1.2-1.2 0-.664-.536-1.2-1.2-1.2-.664 0-1.2.536-1.2 1.2zm-5.2 2c-.664 0-1.2.536-1.2 1.2 0 .664.536 1.2 1.2 1.2.664 0 1.2-.536 1.2-1.2 0-.664-.536-1.2-1.2-1.2zm2.4-.8c.664 0 1.2-.536 1.2-1.2 0-.664-.536-1.2-1.2-1.2-.664 0-1.2.536-1.2 1.2 0 .664.536 1.2 1.2 1.2z" fill="url(#a)"/><defs><linearGradient id="a" x1="26.75" y1="43.25" x2="-2.75" y2="-2.25" gradientUnits="userSpaceOnUse"><stop offset=".422" stop-color="#E4FFFC"/><stop offset="1" stop-color="#07BEB8"/></linearGradient></defs>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path d="M12.7 9.1a1.2 1.2 0 1 0 2.4 0 1.2 1.2 0 1 0-2.4 0z" fill="url(#A)"/>
+              <path d="M10.3 5.9a1.2 1.2 0 0 0 2.4 0 1.2 1.2 0 0 0-2.4 0z" fill="url(#A)"/>
+              <path d="M5.1 7.9a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 1 0 0-2.4z" fill="url(#A)"/>
+              <path d="M7.5 7.1a1.2 1.2 0 0 0 0-2.4 1.2 1.2 0 0 0 0 2.4z" fill="url(#A)"/>
+              <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm16.578 14.978l-3.023.605c-.26.052-.26.423 0 .475l3.023.605a.97.97 0 0 1 .76.76l.605 3.023c.052.26.423.26.475 0l.605-3.023a.97.97 0 0 1 .76-.76l3.023-.605c.26-.052.26-.423 0-.475l-3.023-.605a.97.97 0 0 1-.76-.76l-.605-3.023c-.052-.26-.423-.26-.475 0l-.605 3.023a.97.97 0 0 1-.76.76zm-7.383 3.027l1.005-.201a.97.97 0 0 0 .76-.76l.201-1.005c.052-.26.423-.26.475 0l.201 1.005a.97.97 0 0 0 .76.76l1.005.201c.26.052.26.423 0 .475l-1.005.201a.97.97 0 0 0-.76.76l-.201 1.005c-.052.26-.423.26-.475 0l-.201-1.005a.97.97 0 0 0-.76-.76l-1.005-.201c-.26-.052-.26-.423 0-.475zM1.5 9.5c0-4.408 3.592-8 8-8s8 3.232 8 7.2c0 2.648-2.152 4.8-4.8 4.8h-1.416c-.224 0-.4.176-.4.4 0 .096.04.184.104.264.328.376.512.848.512 1.336a2 2 0 0 1-2 2c-4.408 0-8-3.592-8-8z" fill="url(#A)"/>
+              <defs><radialGradient id="A" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 20.5) rotate(-122.957) scale(27.1132 37.5933)"><stop stop-color="#e6fffc"/><stop offset="1" stop-color="#07beb8"/></radialGradient></defs>
             </svg>
             <span>
               <h5 class="w-full text-aqua-500 text-sb">Tokens</h5>
             </span>
           </CardImg>
           <CardImg>
-            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M6 9.6c.8-3.2 2.8-4.8 6-4.8 4.8 0 5.4 3.6 7.8 4.2 1.6.4 3-.2 4.2-1.8-.8 3.2-2.8 4.8-6 4.8-4.8 0-5.4-3.6-7.8-4.2-1.6-.4-3 .2-4.2 1.8zm-6 7.2C.8 13.6 2.8 12 6 12c4.8 0 5.4 3.6 7.8 4.2 1.6.4 3-.2 4.2-1.8-.8 3.2-2.8 4.8-6 4.8-4.8 0-5.4-3.6-7.8-4.2-1.6-.4-3 .2-4.2 1.8z" fill="url(#a)"/><defs><linearGradient id="a" x1="0" y1="-8" x2="24" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#2383AE"/><stop offset="1" stop-color="#6DD7B9"/></linearGradient></defs>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path fill-rule="evenodd" d="M6 9.6c.8-3.2 2.8-4.8 6-4.8 4.8 0 5.4 3.6 7.8 4.2 1.6.4 3-.2 4.2-1.8-.8 3.2-2.8 4.8-6 4.8-4.8 0-5.4-3.6-7.8-4.2-1.6-.4-3 .2-4.2 1.8zm-6 7.2C.8 13.6 2.8 12 6 12c4.8 0 5.4 3.6 7.8 4.2 1.6.4 3-.2 4.2-1.8-.8 3.2-2.8 4.8-6 4.8-4.8 0-5.4-3.6-7.8-4.2-1.6-.4-3 .2-4.2 1.8z" fill="url(#A)"/>
+              <defs><linearGradient id="A" x1="0" y1="-8" x2="24" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#2383ae"/><stop offset="1" stop-color="#6dd7b9"/></linearGradient></defs>
             </svg>
             <span>
               <h5 class="w-full text-aqua-500 text-sb">Tailwind</h5>
