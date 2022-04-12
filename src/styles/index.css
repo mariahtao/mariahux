@@ -42,4 +42,36 @@
         font-family: Proxima Nova, system-ui, sans-serif;
         @apply bg-grey-100;
     }
+    .gradient-border {
+        background: linear-gradient(65deg, #07BEB8, #9CEAEF, #E5FFFC);
+    }
+    .dev-motion {
+        stroke: #07BEB8;
+        stroke-width: 2px;
+        stroke-dashoffset: -2000;
+        stroke-dasharray: 2000;
+        animation-name: dev-motion;
+        animation-duration: 3s;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+    }        
+    @keyframes dev-motion {
+        0% {
+            stroke-dashoffset: -2000;
+            stroke: #07BEB8;
+        }
+        30% {
+            stroke: #9CEAEF;
+        }
+        50% {
+            stroke: #C4FFF9;
+        }
+        70% {
+            stroke: #68D8D6;
+        }
+        100% {
+            stroke-dashoffset:0;  
+            stroke: #68D8D6;
+        }
+    }
 }

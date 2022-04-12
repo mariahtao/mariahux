@@ -10,7 +10,7 @@ const Nav = () => {
           <div className="flex flex-row md:flex-col tems-center md:justify-start justify-between">
             <li>
               <Link 
-                className="flex items-center p-1 md:mb-6 rounded bg-gradient-to-r from-aqua-600/20 to-aqua-100/20 hover:bg-grey-200"
+                className="flex items-center p-1 md:mb-6 rounded"
                 to="/"
               >
                 <img width="20" height="20" src={fav} alt="fav logo"></img>
@@ -82,7 +82,7 @@ const Nav = () => {
             </div>
           </div>
           <div className="invisible md:visible pb-16">
-            <p className="text-sm text-grey-500">Developed and designed with ❤️ by Mariah</p>
+            <p className="text-sm text-grey-500">Designed and developed with ❤️ </p>
             <p className="text-sm text-grey-500">2022 MariahUX © </p>    
         </div>
         </ul>

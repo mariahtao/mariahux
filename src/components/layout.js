@@ -11,7 +11,7 @@ const Layout = ({ pageTitle, children }) => {
             <Nav />
           </div>
           <div className="w-full">
-            <main className="flex-auto md:pt-4 pt-14 md:ml-52">
+            <main className="flex-auto md:pt-0 pt-14 md:ml-56">
               <h1>{pageTitle}</h1>
               {children}
             </main>
