@@ -5,9 +5,24 @@ import Layout from "../components/layout";
 import CardWork from "../components/cardWork";
 
 const IndexPage = () => {
+  const projects = useStaticQuery(graphql`
+    query Projects {
+      allSanityProjects {
+        nodes {
+          title
+          tags {
+            tag
+          }
+          badges {
+            badge
+          }
+        }
+      }
+    } 
+  `);
   return (
     <Layout pageTitle="Hey, I'm Mariah!">
-      <div>
+      <div className="w-full">
         <text className="font-sb text-lg text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">
           UI ENGINEER + DESIGNER
         </text>
@@ -23,12 +38,25 @@ const IndexPage = () => {
             a vital part of my problem solving process!
           </p>
           <p> Here is my select work. </p>
-        <div class="mt-16">
+        {projects.allSanityProjects.nodes.map((project, index) => (
+          <div class="mt-16">
           <CardWork>
-            <tag>Tag</tag>
-            <badge>Badge</badge>
+            <h3>{project.title}</h3>
+            {project.tags.map((tag, tagIndex) => {
+              if (tagIndex === project.tags.length - 1) {
+                return tag.tag;
+              }
+                return `${tag.tag} | `;
+            })}
+            {project.badges.map((badge, badgeIndex) => {
+              if (badgeIndex === project.badges.length - 1) {
+                return badge.badge;
+              }
+                return `${badge.badge} | `;
+            })}
           </CardWork>
         </div>
+        ))}
       </div>
     </Layout>
   );

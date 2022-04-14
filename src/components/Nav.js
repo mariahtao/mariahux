@@ -82,8 +82,8 @@ const Nav = () => {
             </div>
           </div>
           <div className="invisible md:visible pb-16">
-            <p className="text-sm text-grey-500">Designed and developed with ❤️ </p>
-            <p className="text-sm text-grey-500">2022 MariahUX © </p>    
+            <p className="text-sm text-grey-500">Designed and developed with Figma, gatsby.js, react.js, and ❤️ </p>
+            <p className="text-sm text-grey-500">2022 Mariah Tao © </p>    
         </div>
         </ul>
       </nav>
