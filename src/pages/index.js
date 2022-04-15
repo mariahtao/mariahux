@@ -10,15 +10,15 @@ const IndexPage = () => {
       allSanityProjects {
         nodes {
           title
-          tags {
-            tag
-          }
-          badges {
-            badge
-          }
+        tags {
+          tag
+        }
+        badges {
+          badge
+        }
         }
       }
-    } 
+    }
   `);
   return (
     <Layout pageTitle="Hey, I'm Mariah!">
