@@ -141,8 +141,8 @@ const AboutPage = () => {
           </CardList>
           <CardList>
             <ul class="list-none mb-0">
-              <li class="w-full py-1 text-grey-900">Flowbite</li>
-              <li class="w-full text-aqua-500 font-medium">@ Tailwindcss</li>
+              <li class="w-full py-1 text-grey-900">MUI</li>
+              <li class="w-full text-aqua-500 font-medium">@ MUI</li>
             </ul>
           </CardList>
         </div>

@@ -22,7 +22,8 @@ const IndexPage = () => {
   `);
   return (
     <Layout pageTitle="Hey, I'm Mariah!">
-      <div className="w-full">
+      <div className="grid grid-cols-1">
+        <div className="col-span-1">
         <text className="font-sb text-lg text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">
           UI ENGINEER + DESIGNER
         </text>
@@ -57,6 +58,7 @@ const IndexPage = () => {
           </CardWork>
         </div>
         ))}
+        </div>
       </div>
     </Layout>
   );
