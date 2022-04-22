@@ -45,6 +45,13 @@
     .gradient-border {
         background: linear-gradient(65deg, #07BEB8, #9CEAEF, #E5FFFC);
     }
+    .scaling-svg {
+        position: absolute; 
+        height: 100%; 
+        width: 100%; 
+        left: 0; 
+        top:0;
+    }
     .dev-motion {
         stroke: #07BEB8;
         stroke-width: 2px;

@@ -82,7 +82,7 @@ const Nav = () => {
             </div>
           </div>
           <div className="hidden md:inline pb-0 md:pb-16">
-            <p className="text-sm text-grey-500">Designed and developed with Figma, gatsby.js, react.js, and ❤️ </p>
+            <p className="text-sm text-grey-500">Designed and developed with Figma, react.js, and ❤️ </p>
             <p className="text-sm text-grey-500">2022 Mariah Tao © </p>    
         </div>
         </ul>
