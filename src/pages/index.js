@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import Layout from "../components/layout";
 import CardWork from "../components/cardWork";
-import dev from "../assets/dev.svg";
+import Card from "../components/card";
 
 const IndexPage = () => {
   const projects = useStaticQuery(graphql`
@@ -61,6 +61,183 @@ const IndexPage = () => {
             a vital part of my problem solving process!
           </p>
           <p> Here is my select work. </p>
+          <div class="mt-16 space-y-10">
+            <Card h3="Design system manager" badge="UX lead">
+              <div class="flex flex-row flex-wrap gap-2">
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">ML/AI •</span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">
+                    Saas Enterprise •
+                  </span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">Edtech</span>
+                </tag>
+              </div>
+            </Card>
+            <Card h3="Uptime dashboard">
+              <div class="flex flex-row flex-wrap gap-2">
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    UX Lead
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Product manager
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Front-end dev
+                  </span>
+                </badge>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">ML/AI •</span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">
+                    Saas Enterprise •
+                  </span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">Edtech</span>
+                </tag>
+              </div>
+            </Card>
+            <Card h3="Test taker experience">
+              <div class="flex flex-row flex-wrap gap-2">
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    UX Lead
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Product manager
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Front-end dev
+                  </span>
+                </badge>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">ML/AI •</span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">
+                    Saas Enterprise •
+                  </span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">Edtech</span>
+                </tag>
+              </div>
+            </Card>
+            <Card h3="Exam admin experience">
+              <div class="flex flex-row flex-wrap gap-2">
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    UX Lead
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Product manager
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Front-end dev
+                  </span>
+                </badge>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">ML/AI •</span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">
+                    Saas Enterprise •
+                  </span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">Edtech</span>
+                </tag>
+              </div>
+            </Card>
+            <Card h3="iOS / iPadOS app">
+              <div class="flex flex-row flex-wrap gap-2">
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    UX Lead
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Product manager
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Front-end dev
+                  </span>
+                </badge>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">ML/AI •</span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">
+                    Saas Enterprise •
+                  </span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">Edtech</span>
+                </tag>
+              </div>
+            </Card>
+            <Card h3="Analytics overview">
+              <div class="flex flex-row flex-wrap gap-2">
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    UX Lead
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Product manager
+                  </span>
+                </badge>
+                <badge>
+                  <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
+                    Front-end dev
+                  </span>
+                </badge>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">ML/AI •</span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">
+                    Saas Enterprise •
+                  </span>
+                </tag>
+                <tag>
+                  <span class="text-sm font-medium text-grey-600">Edtech</span>
+                </tag>
+              </div>
+            </Card>
+          </div>
           {projects.allSanityProjects.nodes.map((project, index) => (
             <div class="mt-16">
               <CardWork>
@@ -69,13 +246,13 @@ const IndexPage = () => {
                   if (tagIndex === project.tags.length - 1) {
                     return tag.tag;
                   }
-                  return `${tag.tag} | `;
+                  return `${tag.tag} • `;
                 })}
                 {project.badges.map((badge, badgeIndex) => {
                   if (badgeIndex === project.badges.length - 1) {
                     return badge.badge;
                   }
-                  return `${badge.badge} | `;
+                  return `${badge.badge}`;
                 })}
               </CardWork>
             </div>
