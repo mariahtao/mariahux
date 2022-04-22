@@ -54,9 +54,10 @@
     }
     .dev-motion {
         stroke: #07BEB8;
-        stroke-width: 2px;
+        stroke-width: 1.5px;
         stroke-dashoffset: -2000;
         stroke-dasharray: 2000;
+        stroke-linecap: round;
         animation-name: dev-motion;
         animation-duration: 3s;
         animation-iteration-count:infinite;
