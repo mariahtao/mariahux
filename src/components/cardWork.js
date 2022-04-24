@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 
 const CardWork = ({ children, href }) => {
   return (
-    <div class="block p-4 space-y-4 bg-grey-200 rounded-md border border-grey-300 shadow-xl shadow-aqua-400/5">
+    <div class="card">
       <main className="space-y-4">
         <h3>{children}</h3>    
         <div class="flex flex-row">

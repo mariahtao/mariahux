@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 
 const CardImg = ({ children }) => {
   return (
-    <div class="block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-lg shadow-aqua-400/10">
+    <div class="card">
       <main className="flex items-center gap-2">{children}</main>
     </div>
   );

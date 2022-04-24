@@ -1,46 +1,43 @@
 import * as React from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import CardList from '../components/cardList';
 import CardImg from '../components/cardImg';
-import Header from "../components/header";
 import headshot from "../assets/headshot.png";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About me">
+    <Layout pageTitle="About me" title="MUX | About">
         <div className= "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="md:col-span-1 lg:col-span-2">
             <text className="font-sb text-lg mb-8 text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">SHE / HER / HERS</text>
             <p className="mt-8"> Hey there 👋🏼 . I am a Seattleite now living in Arizona, originally from California.</p>
             <p> In my free time, you can find me spending time with my family and friends. I enjoy yoga, crypto, streetwear fashion, and binge-watching anime.</p>
           </div>
-          <img className="rounded-full shadow-lg shadow-aqua-400/10" src={headshot} alt="Mariah's headshot"></img>
+          <img className="rounded-full" src={headshot} alt="Mariah's headshot"></img>
         </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
         <CardList>
           <ul class="list-none mb-0">
-            <li class="w-full py-1 text-grey-900">Favorite cryptos</li>
-            <li class="w-full py-1 text-aqua-500 font-medium">HBAR</li>
-            <li class="w-full py-1 text-aqua-500 font-medium">CRV</li>
-            <li class="w-full mb-0 text-aqua-500 font-medium">ALGO</li>
+            <li class="start">Favorite cryptos</li>
+            <li class="mid">HBAR</li>
+            <li class="mid">CRV</li>
+            <li class="end">ALGO</li>
           </ul>
         </CardList>
         <CardList>
           <ul class="list-none mb-0">
-            <li class="w-full py-1 text-grey-900">Streetwear staples</li>
-            <li class="w-full py-1 text-aqua-500 font-medium">ksubi bucket bag</li>
-            <li class="w-full py-1 text-aqua-500 font-medium">Bao Bao matte tote</li>
-            <li class="w-full mb-0 text-aqua-500 font-medium">AJ1 chicago red</li>
+            <li class="start">Streetwear staples</li>
+            <li class="mid">ksubi bucket bag</li>
+            <li class="mid">Bao Bao matte tote</li>
+            <li class="end">AJ1 chicago red</li>
           </ul>
         </CardList>
         <CardList>
           <ul class="list-none mb-0">
-            <li class="w-full py-1 text-grey-900 font-medium">Favorite animes</li>
-            <li class="w-full py-1 text-aqua-500 font-medium">Demon Slayer</li>
-            <li class="w-full py-1 text-aqua-500 font-medium">Inuyasha</li>
-            <li class="w-full mb-0 text-aqua-500 font-medium">Deathnote</li>
+            <li class="start font-medium">Favorite animes</li>
+            <li class="mid">Demon Slayer</li>
+            <li class="mid">Inuyasha</li>
+            <li class="end">Deathnote</li>
           </ul>
         </CardList>
       </div>
@@ -129,20 +126,20 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
           <CardList>
             <ul class="list-none mb-0">
-              <li class="w-full py-1 text-grey-900">Human Interface Guidelines</li>
-              <li class="w-full text-aqua-500 font-medium">@ Apple</li>
+              <li class="start">Human Interface Guidelines</li>
+              <li class="end">@ Apple</li>
             </ul>
           </CardList>
           <CardList>
             <ul class="list-none mb-0">
-              <li class="w-full py-1 text-grey-900">Primer</li>
-              <li class="w-full text-aqua-500 font-medium">@ Github</li>
+              <li class="start">Primer</li>
+              <li class="end">@ Github</li>
             </ul>
           </CardList>
           <CardList>
             <ul class="list-none mb-0">
-              <li class="w-full py-1 text-grey-900">MUI</li>
-              <li class="w-full text-aqua-500 font-medium">@ MUI</li>
+              <li class="start">MUI</li>
+              <li class="end">@ MUI</li>
             </ul>
           </CardList>
         </div>

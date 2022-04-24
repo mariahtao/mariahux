@@ -6,10 +6,10 @@
         @apply text-4xl text-white mb-3 font-semibold;
     }
     h2 {
-        @apply text-3xl text-white font-semibold;
+        @apply text-3xl text-white mb-4 font-semibold;
     }
     h3 {
-        @apply text-2xl text-white font-semibold;
+        @apply text-2xl text-white mb-2 font-semibold;
     }
     h4 {
         @apply text-xl text-white font-semibold;
@@ -21,7 +21,7 @@
         @apply text-sm text-white font-semibold;
     }
     p {
-        @apply text-base text-white mb-3;
+        @apply text-base text-white mb-6;
     }
     .text-small {
         @apply text-sm text-white mb-6;
@@ -33,24 +33,35 @@
         @apply list-decimal text-white mb-6;
     }
     li {
-        @apply list-inside text-white mb-2 font-semibold;
+        @apply list-inside text-white mb-2;
+    }
+    li.default {
+        @apply list-outside text-white ml-3 mb-2;    
+    }
+    li.start {
+        @apply list-inside w-full py-1 text-grey-900;
+    }
+    li.mid {
+        @apply list-inside text-aqua-500 mb-2 w-full py-1 font-semibold;
+    }
+    li.end {
+        @apply list-inside text-aqua-500 mb-0 w-full py-1 font-semibold;
     }
     .link {
         @apply text-aqua-500 font-semibold relative cursor-pointer;
     }
+    img {
+        @apply mt-6 rounded shadow-lg shadow-aqua-400/10
+    }
+    span.hide {
+        @apply ml-0 md:ml-3 hidden md:inline
+    }
+    div.card {
+        @apply block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-lg shadow-aqua-400/10
+    }
     html {
         font-family: Proxima Nova, system-ui, sans-serif;
         @apply bg-grey-100;
-    }
-    .gradient-border {
-        background: linear-gradient(65deg, #07BEB8, #9CEAEF, #E5FFFC);
-    }
-    .scaling-svg {
-        position: absolute; 
-        height: 100%; 
-        width: 100%; 
-        left: 0; 
-        top:0;
     }
     .dev-motion {
         stroke: #07BEB8;
