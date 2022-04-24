@@ -65,118 +65,60 @@ const IndexPage = () => {
             badge1="UX lead"
             badge2="Product manager"
             badge3="Front-end"
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
             href="/design-system-manager"
-          >
-            <div class="flex flex-row flex-wrap gap-2">
-              <tag>
-                <span class="text-sm font-medium text-grey-600">ML/AI •</span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">
-                  Saas Enterprise •
-                </span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">Edtech</span>
-              </tag>
-            </div>
-          </Card>
-          <Card h3="Uptime UI" badge1="UX lead" badge2="Product manager" href="/uptime-ui">
-            <div class="flex flex-row flex-wrap gap-2">
-              <tag>
-                <span class="text-sm font-medium text-grey-600">ML/AI •</span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">
-                  Saas Enterprise •
-                </span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">Edtech</span>
-              </tag>
-            </div>
-          </Card>
+          ></Card>
+          <Card
+            h3="Uptime UI"
+            badge1="UX lead"
+            badge2="Product manager"
+            badge3="Mentor"
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
+            href="/uptime-ui"
+          ></Card>
           <Card
             h3="Test taker experience"
             badge1="UX lead"
             badge2="User researcher"
             badge3="Product manager"
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
             href="/test-taker-experience"
-          >
-            <div class="flex flex-row flex-wrap gap-2">
-              <tag>
-                <span class="text-sm font-medium text-grey-600">ML/AI •</span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">
-                  Saas Enterprise •
-                </span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">Edtech</span>
-              </tag>
-            </div>
-          </Card>
+          ></Card>
           <Card
             h3="Exam admin experience"
             badge1="UX lead"
             badge2="User researcher"
             badge3="Product manager"
-          >
-            <div class="flex flex-row flex-wrap gap-2">
-              <tag>
-                <span class="text-sm font-medium text-grey-600">ML/AI •</span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">
-                  Saas Enterprise •
-                </span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">Edtech</span>
-              </tag>
-            </div>
-          </Card>
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
+          ></Card>
           <Card
             h3="iOS app"
             badge1="UX lead"
             badge2="Q/A"
             badge3="Product manager"
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
             href="/ios-app"
-          >
-            <div class="flex flex-row flex-wrap gap-2">
-              <tag>
-                <span class="text-sm font-medium text-grey-600">ML/AI •</span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">
-                  Saas Enterprise •
-                </span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">Edtech</span>
-              </tag>
-            </div>
-          </Card>
+          ></Card>
           <Card
-            h3="Analytics overview"
+            h3="Project tracking software"
             badge1="Product designer"
             badge2="User researcher"
-          >
-            <div class="flex flex-row flex-wrap gap-2">
-              <tag>
-                <span class="text-sm font-medium text-grey-600">ML/AI •</span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">
-                  Saas Enterprise •
-                </span>
-              </tag>
-              <tag>
-                <span class="text-sm font-medium text-grey-600">Edtech</span>
-              </tag>
-            </div>
-          </Card>
+            badge3="Tech writer"
+            tag1="Fintech"
+            tag2="Insurance"
+            tag3="SaaS Enterprise"
+            href="/project-tracking"
+          ></Card>
         </div>
         {projects.allSanityProjects.nodes.map((project, index) => (
           <div class="mt-16">

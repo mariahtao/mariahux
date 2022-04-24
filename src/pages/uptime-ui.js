@@ -7,14 +7,14 @@ import uptimeNew from "../assets/uptimeNew.png";
 const UptimePage = () => {
   return (
     <Template pageTitle="Uptime UI" Title="MUX | Uptime UI">
-      <div className="grid grid-cols-1 gap-14">
+      <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul>
+          <ul class="mb-0">
             <li class="default">Design the external uptime status page</li>
             <li class="default">Work alongside engineering during delivery phase</li>
             <li class="default">Document all use cases, interactions, behaviors, and flows</li>
-            <li class="default">Product manage and mentor the sprint team</li>
+            <li class="default">Product manage and mentor the product team of quarterly interns</li>
           </ul>
         </CardList>
         <div>
@@ -28,7 +28,7 @@ const UptimePage = () => {
         <div>
             <h2>Outcome</h2>
             <p>My work resulted in a modern UI with consistent design patterns, usability standards, smooth interactions, and necessary content to understand the health of the system.</p>
-            <img class="shadow-none" src={uptimeNew} alt="new uptime solution"></img>
+            <img class="shadow-none pt-2" src={uptimeNew} alt="new uptime solution"></img>
         </div>
       </div>
     </Template>

@@ -10,12 +10,12 @@ const TestTakerPage = () => {
   return (
     <Template
       pageTitle="Test taker experience"
-      title="MUX | Test taker experience"
+      Title="MUX | Test taker experience"
     >
-      <div className="grid grid-cols-1 gap-14">
+      <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul>
+          <ul class="mb-0">
             <li class="default">Redesign the entire test taker experience</li>
             <li class="default">
               Project manage and conduct user research for the product team
@@ -32,14 +32,14 @@ const TestTakerPage = () => {
             integrate with various learning management platforms. In this
             project, I improved the test taking experience for a student.
           </p>
-          <h2>Problem statment</h2>
+          <h3>Problem statment</h3>
           <p>
             To keep up with our growing user base the software needed to improve
             in efficiency and overall experience. The existing test taker exam
             set up experience was slow, stressful, confusing, and made test
             taking even more difficult for students.
           </p>
-          <h2>Goals</h2>
+          <h3>Goals</h3>
           <ul class="pb-4">
             <li class="default">
               Reduce the anxiety and stress for a test taker with an ideal
@@ -50,10 +50,10 @@ const TestTakerPage = () => {
               new version
             </li>
           </ul>
-          <h2>Timeline</h2>
+          <h3>Timeline</h3>
           <ul>
             <li class="default">
-              Week 1: planning research and recruiting participants{" "}
+              Week 1: planning research and recruiting participants
             </li>
             <li class="default">Week 2 & 3: research sessions</li>
             <li class="default">
@@ -65,8 +65,10 @@ const TestTakerPage = () => {
           <h2>Research methods</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <CardList>
+              <p className="mb-2 font-semibold text-aqua-500">
+                User interviews
+              </p>
               <ul class="mb-0">
-                <li class="end">User interviews </li>
                 <li class="default">
                   Asking questions to understand the behavior of users while
                   preparing for an exam
@@ -77,14 +79,16 @@ const TestTakerPage = () => {
               </ul>
             </CardList>
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="end">Usability tests </li>
+              <p className="mb-2 font-semibold text-aqua-500">
+                Usability tests
+              </p>
+              <ul class="mb-0">
                 <li class="default">
                   Understanding how users navigate new features
                 </li>
                 <li class="default">
                   Ask usability questions to understand the pain points for
-                  users{" "}
+                  users
                 </li>
               </ul>
             </CardList>
@@ -99,14 +103,27 @@ const TestTakerPage = () => {
         <div>
           <h2>Outcome</h2>
           <ul>
-              <li class="default">Progress indicator to help a test taker understand where they are in the exam set up stage</li>
-              <li class="default">Validation states that clearly define what the user needs to do to move forward</li>
-              <li class="default">Onboarding tooltips to point out new features</li>
-              <li class="default">Consistency amongst visual indicators</li>
+            <li class="default">
+              Progress indicator to help a test taker understand where they are
+              in the exam set up stage
+            </li>
+            <li class="default">
+              Validation states that clearly define what the user needs to do to
+              move forward
+            </li>
+            <li class="default">
+              Onboarding tooltips to point out new features
+            </li>
+            <li class="default">Consistency amongst visual indicators</li>
           </ul>
-          <img src={pass} alt="final design with succes validation"></img>
-          <img src={fail} alt="final design with fail validation"></img>
-          <img src={onboarding} alt="final design with onboarding tooltip"></img>
+          <div class="space-y-8">
+            <img src={pass} alt="final design with succes validation"></img>
+            <img src={fail} alt="final design with fail validation"></img>
+            <img
+              src={onboarding}
+              alt="final design with onboarding tooltip"
+            ></img>
+          </div>
         </div>
       </div>
     </Template>

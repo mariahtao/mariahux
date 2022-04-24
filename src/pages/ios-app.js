@@ -5,11 +5,11 @@ import finalApp from "../assets/finalApp.png";
 
 const IosAppPage = () => {
   return (
-    <Template pageTitle="iOS app" title="MUX | iOS app">
-      <div className="grid grid-cols-1 gap-14">
+    <Template pageTitle="iOS app" Title="MUX | iOS app">
+      <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul>
+          <ul class="mb-0">
             <li class="default">Lead the UX for the app design</li>
             <li class="default">
               Project managed the swift developers, graphic designers, and
@@ -51,7 +51,7 @@ const IosAppPage = () => {
             A polished iOS / iPadOS app combining our design system principles
             as well as Human Interface Guidelines and SwiftUI.
           </p>
-          <img class="shadow-none" src={finalApp} alt="final app design"></img>
+          <img class="shadow-none pt-2" src={finalApp} alt="final app design"></img>
         </div>
       </div>
     </Template>

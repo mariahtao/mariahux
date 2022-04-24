@@ -1,5 +1,4 @@
 import * as React from "react";
-import Layout from "../components/layout";
 import Template from "../components/template";
 import CardList from "../components/cardList";
 import component from "../assets/component.png";
@@ -9,12 +8,12 @@ const DSManagerPage = () => {
   return (
     <Template
       pageTitle="Design system manager"
-      title="MUX | Design system manager"
+      Title="MUX | Design system manager"
     >
-      <div className="grid grid-cols-1 gap-14">
+      <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul>
+          <ul class="mb-0">
             <li class="default">
               Manage, maintain, and scale the design system and components
             </li>
@@ -53,47 +52,24 @@ const DSManagerPage = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div class="space-y-6">
           <h2>Best practices</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="end">Accessibility</li>
-                <li class="start">
-                  I implemented accessibility standards (WCAG AA) into the
-                  design system to ensure all of our products followed
-                  accessibility standards from its core.
-                </li>
-              </ul>
+              <p className="mb-2 font-semibold text-aqua-500">Accessibility</p>
+              <p className="mb-0">I implemented accessibility standards (WCAG AA) into thedesign system to ensure all of our products followedaccessibility standards from its core.</p>
             </CardList>
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="end">Variants</li>
-                <li class="start">
-                  In Figma, I utilized the variants feature to help scale and
-                  build components. This helped to define the use cases for
-                  different components and speed up prototyping when designing.
-                </li>
-              </ul>
+              <p className="mb-2 font-semibold text-aqua-500">Variants</p>
+              <p className="mb-0">In Figma, I utilized the variants feature to help scale andbuild components. This helped to define the use cases fordifferent components and speed up prototyping when designing.</p>
             </CardList>
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="end">Documentation</li>
-                <li class="start">
-                  I created documentation around use cases, example usage,
-                  transitions, interactions, box model, states, validation,
-                  booleans, and expected behavior.
-                </li>
-              </ul>
+              <p className="mb-2 font-semibold text-aqua-500">Documentation</p>
+              <p className="mb-0">I created documentation around use cases, example usage,transitions, interactions, box model, states, validation, booleans, and expected behavior.</p>
             </CardList>
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="end">8 point grid system</li>
-                <li class="start">
-                  I used an 8 point grid system when creating components and
-                  styles to ensure consistency around sizing and spacing.
-                </li>
-              </ul>
+              <p className="mb-2 font-semibold text-aqua-500">8 point grid system</p>
+              <p className="mb-0">I used an 8 point grid system when creating components and styles to ensure consistency around sizing and spacing.</p>
             </CardList>
           </div>
           <img src={component} alt="creating component"></img>

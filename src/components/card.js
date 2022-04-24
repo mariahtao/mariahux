@@ -1,9 +1,6 @@
 import * as React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
 
-//arrayBadge = [badge1, badge2, badge3]
-
-const Card = ({ h3, badge1, badge2, badge3, children, href }) => {
+const Card = ({ h3, badge1, badge2, badge3, tag1, tag2, tag3, children, href }) => {
   return (
     <div class="card">
       <main className="space-y-4">
@@ -12,7 +9,7 @@ const Card = ({ h3, badge1, badge2, badge3, children, href }) => {
           <a href={href}>
             <button
               type="button"
-              class="text-white bg-grey-300 border border-white/20 hover:bg-grey-400 focus:ring-2 focus:ring-aqua-400 rounded text-base px-4 py-2 text-center flex-initial inline-flex items-center gap-1 shadow-lg shadow-aqua-400/10"
+              class="bg-grey-300 border border-white/20 hover:bg-grey-400 focus:ring-2 focus:ring-aqua-400 rounded px-4 py-2 text-center flex-initial inline-flex items-center gap-1 shadow-lg shadow-aqua-400/10 transition-all duration-500 ease-in-out"
             >
               View
               <svg
@@ -31,20 +28,27 @@ const Card = ({ h3, badge1, badge2, badge3, children, href }) => {
         </div>
         <div class="flex flex-row flex-wrap gap-2">
           <badge>
-            <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
-              {badge1}
-            </span>
+            <span class="badge">{badge1}</span>
           </badge>
           <badge>
-            <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
-              {badge2}
-            </span>
+            <span class="badge">{badge2}</span>
           </badge>
           <badge>
-            <span class="bg-aqua-400/20 text-aqua-100 text-sm font-sb border border-white/10 px-2 py-1 rounded">
-              {badge3}
-            </span>
+            <span class="badge">{badge3}</span>
           </badge>
+        </div>
+        <div class="flex flex-row flex-wrap gap-2">
+          <tag>
+            <span class="tag">{tag1}</span>
+          </tag>
+          •
+          <tag>
+            <span class="tag">{tag2}</span>
+          </tag>
+          •
+          <tag>
+            <span class="tag">{tag3}</span>
+          </tag>
         </div>
         {children}
       </main>
@@ -52,10 +56,3 @@ const Card = ({ h3, badge1, badge2, badge3, children, href }) => {
   );
 };
 export default Card;
-
-/* {badge((badge, badgeIndex) => {
-          if (badgeIndex === badge.length - 1) {
-            return badge.badge;
-          }
-          return `${badge.badge}`;
-        })}*/

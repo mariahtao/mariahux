@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { Link } from 'gatsby';
 import fav from "../assets/fav.png";
 
 const Nav = () => {
@@ -10,7 +9,7 @@ const Nav = () => {
           <div className="flex flex-auto flex-row gap-y-1 md:gap-x-1 md:flex-col md:justify-start justify-between">
             <li>
               <Link 
-                className="flex flex-auto md:flex-none items-center p-1.5 md:p-1 md:mb-6 rounded"
+                className="flex flex-auto md:flex-none items-center p-1.5 md:p-1 md:mb-6 rounded transition-all duration-500 ease-in-out"
                 to="/"
               >
                 <img className="mt-0" width="20" height="20" src={fav} alt="fav logo"></img>
@@ -20,7 +19,7 @@ const Nav = () => {
             <div className="contents">
               <li className="flex-inital items-center md:flex-none">
                 <Link 
-                  className="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 active:bg-grey-300"
+                  className="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 active:bg-grey-30 transition-all duration-500 ease-in-out0"
                   to="/"
                   activeClassName="bg-grey-200"
                 >
@@ -33,7 +32,7 @@ const Nav = () => {
               </li>
               <li className="flex-inital items-center md:flex-none">
                 <Link 
-                  className="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 active:bg-grey-300"
+                  className="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 active:bg-grey-30 transition-all duration-500 ease-in-out0"
                   to="/about"
                   activeClassName="bg-grey-200"
                 >
@@ -47,7 +46,7 @@ const Nav = () => {
               </li>
               <li className="flex-inital items-center md:flex-none">
                 <a href="mailto:mariahtao@gmail.com" 
-                  class="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300"
+                  class="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
                     <path fill-rule="evenodd" d="M10.839.434a1.49 1.49 0 0 0-1.678 0L.279 6.49A.64.64 0 0 0 0 7.018v12.34a.64.64 0 0 0 .638.638h18.723a.64.64 0 0 0 .638-.638V7.018a.64.64 0 0 0-.279-.527L10.839.434zM9.88 1.489c.072-.049.167-.049.24 0l8.474 5.778-6.088 5.327-1.535-1.325a1.49 1.49 0 0 0-1.943-.004l-1.542 1.322-6.08-5.32L9.88 1.489zm3.601 11.947l5.242 4.527V8.85l-5.242 4.587zM1.277 8.85l5.23 4.577-5.23 4.483V8.85zm1.016 9.87h15.353l-7.509-6.485c-.08-.069-.198-.069-.278-.001L2.293 18.72z" fill="url(#A)"/>
@@ -58,7 +57,7 @@ const Nav = () => {
               </li>
               <li className="flex-inital items-center md:flex-none">
                 <a href="https://drive.google.com/file/d/1CjKOAJN56O2eqCk0vMVofPdWmKZhE1Et/view?usp=sharing" 
-                    className="flex md:shrink-0 items-center p-1.5 md:p-1 rounded hover:bg-grey-300"
+                    className="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
                     <g fill-rule="evenodd">
@@ -71,7 +70,7 @@ const Nav = () => {
               </li>
               <li className="flex-inital items-center md:flex-none">
                 <a href="https://www.linkedin.com/in/mariaht8/" 
-                  className="flex md:shrink-0 items-center p-1.5 md:p-1 rounded hover:bg-grey-300"
+                  className="flex items-center p-1.5 md:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
                     <path d="M17.041 17.041h-2.963V12.4c0-1.107-.02-2.531-1.541-2.531-1.543 0-1.78 1.206-1.78 2.451v4.721H7.794V7.497h2.845v1.304h.04a3.12 3.12 0 0 1 2.807-1.542c3.004 0 3.557 1.976 3.557 4.546l-.001 5.235zM4.45 6.193a1.73 1.73 0 0 1-1.72-1.72 1.73 1.73 0 0 1 1.72-1.72 1.73 1.73 0 0 1 1.72 1.719 1.73 1.73 0 0 1-1.719 1.72zm1.482 10.848H2.965V7.497h2.966v9.544zM18.519.001H1.476C.676-.008.01.643 0 1.443v17.114A1.47 1.47 0 0 0 1.476 20h17.043A1.47 1.47 0 0 0 20 18.557V1.442A1.47 1.47 0 0 0 18.519 0v.001z" fill="#0a66c2"/>
