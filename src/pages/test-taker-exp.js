@@ -10,7 +10,7 @@ const TestTakerPage = () => {
   return (
     <Template
       pageTitle="Test taker experience"
-      Title="MUX | Test taker experience"
+      Title="MUX | Test taker exp."
     >
       <div className="space-y-14">
         <CardList>
@@ -57,7 +57,7 @@ const TestTakerPage = () => {
             </li>
             <li class="default">Week 2 & 3: research sessions</li>
             <li class="default">
-              Week 4: present finalized results and new UI to stakeholders
+              Week 4: present finalized results and new product to stakeholders
             </li>
           </ul>
         </div>

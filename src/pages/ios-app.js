@@ -1,7 +1,7 @@
 import * as React from "react";
 import Template from "../components/template";
 import CardList from "../components/cardList";
-import finalApp from "../assets/finalApp.png";
+import ios from "../assets/ios.png";
 
 const IosAppPage = () => {
   return (
@@ -51,7 +51,7 @@ const IosAppPage = () => {
             A polished iOS / iPadOS app combining our design system principles
             as well as Human Interface Guidelines and SwiftUI.
           </p>
-          <img class="shadow-none pt-2" src={finalApp} alt="final app design"></img>
+          <img class="shadow-none pt-2" src={ios} alt="final app design"></img>
         </div>
       </div>
     </Template>

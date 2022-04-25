@@ -4,12 +4,12 @@ import fav from "../assets/fav.png";
 
 const Nav = () => {
     return (
-      <nav class="block fixed inset-x-0 md:inset-x-auto h-12 md:h-full z-10 md:w-48 w-full p-2 px-8 md:px-0 md:mb-12 bg-grey-300/85 md:bg-transparent backdrop-blur-2xl">
+      <nav class="block fixed inset-x-0 md:inset-x-auto h-12 md:h-full z-10 md:w-48 w-full p-2 px-8 md:px-0 md:mb-12 bg-grey-100/85 md:bg-transparent backdrop-blur-3xl">
         <ul class="list-none md:mb-12 md:space-y-1 h-full flex flex-row md:flex-col justify-between">
           <div className="flex flex-auto flex-row gap-y-1 md:gap-x-1 md:flex-col md:justify-start justify-between">
             <li>
               <Link 
-                className="flex flex-auto md:flex-none items-center p-1.5 md:p-1 md:mb-6 rounded transition-all duration-500 ease-in-out"
+                className="flex flex-auto md:flex-none items-center p-1.5 md:p-1 md:mb-6 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
                 to="/"
               >
                 <img className="mt-0" width="20" height="20" src={fav} alt="fav logo"></img>

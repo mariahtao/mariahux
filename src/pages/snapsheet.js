@@ -8,8 +8,8 @@ import overview from "../assets/overview.jpeg";
 const ProjectTrackingPage = () => {
   return (
     <Template
-      pageTitle="Project tracking software"
-      Title="MUX | Project tracking software"
+      pageTitle="Snapsheet's CORE + VICE"
+      Title="MUX | Snapsheet"
     >
       <div className="space-y-14">
         <CardList>
@@ -64,7 +64,7 @@ const ProjectTrackingPage = () => {
             <li class="default">Week 2: research sessions</li>
             <li class="default">Week 3: iterated new UI and new features</li>
             <li class="default">
-              Week 4: present finalized results and new UI to stakeholders
+              Week 4: present finalized results and new product to stakeholders
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ const ProjectTrackingPage = () => {
               </ul>
             </CardList>
           </div>
-          <h3>Findings</h3>
+          <h3>Analysis</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
             <CardList>
               <p className="mb-2 font-semibold text-aqua-500">

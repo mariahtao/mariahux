@@ -1,14 +1,13 @@
 import * as React from "react";
 import Template from "../components/template";
 import CardList from "../components/cardList";
-import component from "../assets/component.png";
-import styles from "../assets/styles.png";
+import rds from "../assets/rds.png";
 
 const DSManagerPage = () => {
   return (
     <Template
-      pageTitle="Design system manager"
-      Title="MUX | Design system manager"
+      pageTitle="Roos design system"
+      Title="MUX | Roos design system"
     >
       <div className="space-y-14">
         <CardList>
@@ -36,7 +35,7 @@ const DSManagerPage = () => {
           <p>
             Scale the design system to support all the products the company
             offers and create a great experience for the designer and builders
-            creating the products.{" "}
+            creating the products.
           </p>
           <h3>Resources</h3>
           <ul>
@@ -72,7 +71,6 @@ const DSManagerPage = () => {
               <p className="mb-0">I used an 8 point grid system when creating components and styles to ensure consistency around sizing and spacing.</p>
             </CardList>
           </div>
-          <img src={component} alt="creating component"></img>
         </div>
         <div>
           <h2>Styles</h2>
@@ -96,8 +94,8 @@ const DSManagerPage = () => {
             Create CSS variables from the defined styles to use in our frontend
             framework.
           </p>
-          <img src={styles} alt="styles"></img>
         </div>
+        <img className="shadow-none" src={rds} alt="rds"></img>
         <div>
           <h2>Outcome</h2>
           <ul>
@@ -137,7 +135,7 @@ const DSManagerPage = () => {
           </p>
           <p>
             Most importantly, I learned to always have the data and research to
-            effectively advocate for UX best practices.{" "}
+            effectively advocate for UX best practices.
           </p>
         </div>
       </div>

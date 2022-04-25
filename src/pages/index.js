@@ -61,14 +61,34 @@ const IndexPage = () => {
         <p> Here is my select work. </p>
         <div class="mt-16 space-y-10">
           <Card
-            h3="Design system manager"
+            h3="Roos design system"
             badge1="UX lead"
             badge2="Product manager"
             badge3="Front-end"
             tag1="ML/AI"
             tag2="Saas Enterprise"
             tag3="Edtech"
-            href="/design-system-manager"
+            href="/roos"
+          ></Card>
+          <Card
+            h3="Exam admin experience"
+            badge1="UX lead"
+            badge2="User researcher"
+            badge3="Product manager"
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
+            href="/exam-admin-exp"
+          ></Card>
+          <Card
+            h3="Test taker experience"
+            badge1="UX lead"
+            badge2="User researcher"
+            badge3="Product manager"
+            tag1="ML/AI"
+            tag2="Saas Enterprise"
+            tag3="Edtech"
+            href="/test-taker-exp"
           ></Card>
           <Card
             h3="Uptime UI"
@@ -81,25 +101,6 @@ const IndexPage = () => {
             href="/uptime-ui"
           ></Card>
           <Card
-            h3="Test taker experience"
-            badge1="UX lead"
-            badge2="User researcher"
-            badge3="Product manager"
-            tag1="ML/AI"
-            tag2="Saas Enterprise"
-            tag3="Edtech"
-            href="/test-taker-experience"
-          ></Card>
-          <Card
-            h3="Exam admin experience"
-            badge1="UX lead"
-            badge2="User researcher"
-            badge3="Product manager"
-            tag1="ML/AI"
-            tag2="Saas Enterprise"
-            tag3="Edtech"
-          ></Card>
-          <Card
             h3="iOS app"
             badge1="UX lead"
             badge2="Q/A"
@@ -110,14 +111,14 @@ const IndexPage = () => {
             href="/ios-app"
           ></Card>
           <Card
-            h3="Project tracking software"
+            h3="Snapsheet's CORE + VICE"
             badge1="Product designer"
             badge2="User researcher"
             badge3="Tech writer"
             tag1="Fintech"
             tag2="Insurance"
             tag3="SaaS Enterprise"
-            href="/project-tracking"
+            href="/snapsheet"
           ></Card>
         </div>
         {projects.allSanityProjects.nodes.map((project, index) => (
