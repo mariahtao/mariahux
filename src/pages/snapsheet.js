@@ -1,9 +1,7 @@
 import * as React from "react";
 import Template from "../components/template";
 import CardList from "../components/cardList";
-import manager from "../assets/manager.png";
-import taskIC from "../assets/taskIC.png";
-import overview from "../assets/overview.jpeg";
+import snapsheet from "../assets/snapsheet.png";
 
 const ProjectTrackingPage = () => {
   return (
@@ -132,6 +130,11 @@ const ProjectTrackingPage = () => {
         </div>
         <div className="grid grid-cols-1 gap-8">
           <h2 className="mb-0">Outcome</h2>
+          <img
+              className="shadow-none"
+              src={snapsheet}
+              alt="Core + vice final design"
+            ></img>
           <div>
             <h3>Task manager new features</h3>
             <h4>Objective</h4>
@@ -149,15 +152,6 @@ const ProjectTrackingPage = () => {
               <li class="default">Customizable data view</li>
               <li class="default">Refresh new tasks into queue</li>
             </ul>
-            <img
-              src={taskIC}
-              alt="Individual contribute project manager final design"
-            ></img>
-            <img
-              class="mt-8"
-              src={manager}
-              alt="Manager project manager final design"
-            ></img>
           </div>
           <div class="mt-4">
             <h3>Analytics overview</h3>
@@ -173,10 +167,6 @@ const ProjectTrackingPage = () => {
               <li class="default">Alerts</li>
               <li class="default">Preformance goals</li>
             </ul>
-            <img
-              src={overview}
-              alt="Anayltics overview final design"
-            ></img>
           </div>
         </div>
       </div>

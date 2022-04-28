@@ -2,9 +2,7 @@ import * as React from "react";
 import Template from "../components/template";
 import CardList from "../components/cardList";
 import diagram from "../assets/diagram.png";
-import pass from "../assets/pass.png";
-import fail from "../assets/fail.png";
-import onboarding from "../assets/onboarding.png";
+import tt from "../assets/tt.png";
 
 const TestTakerPage = () => {
   return (
@@ -116,14 +114,7 @@ const TestTakerPage = () => {
             </li>
             <li class="default">Consistency amongst visual indicators</li>
           </ul>
-          <div class="space-y-8">
-            <img src={pass} alt="final design with succes validation"></img>
-            <img src={fail} alt="final design with fail validation"></img>
-            <img
-              src={onboarding}
-              alt="final design with onboarding tooltip"
-            ></img>
-          </div>
+          <img className="shadow-none" src={tt} alt="final design of new test taker experience"></img>
         </div>
       </div>
     </Template>

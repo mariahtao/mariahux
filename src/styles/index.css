@@ -51,7 +51,7 @@
         @apply text-aqua-500 font-semibold relative cursor-pointer;
     }
     img {
-        @apply mt-6 rounded shadow-lg shadow-aqua-400/10
+        @apply mt-6 rounded shadow-2xl shadow-aqua-400/10
     }
     span.hide {
         @apply ml-0 md:ml-3 hidden md:inline
@@ -63,7 +63,7 @@
         @apply text-sm font-medium text-grey-600
     }
     div.card {
-        @apply block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-lg shadow-aqua-400/10
+        @apply block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-xl shadow-aqua-400/10
     }
     html {
         font-family: Proxima Nova, system-ui, sans-serif;
