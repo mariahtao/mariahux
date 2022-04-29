@@ -7,7 +7,7 @@ const ProjectTrackingPage = () => {
   return (
     <Template
       pageTitle="Snapsheet's CORE + VICE"
-      Title="MUX | Snapsheet"
+      Title="Mariah UX"
     >
       <div className="space-y-14">
         <CardList>

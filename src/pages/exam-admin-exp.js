@@ -5,7 +5,7 @@ import examAdmin from "../assets/examAdmin.png";
 
 const ExamAdminPage = () => {
   return (
-    <Template pageTitle="Exam admin experience" Title="MUX | Exam admin exp">
+    <Template pageTitle="Exam admin experience" Title="Mariah UX">
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>

@@ -7,7 +7,7 @@ const DSManagerPage = () => {
   return (
     <Template
       pageTitle="Roos design system"
-      Title="MUX | Roos design system"
+      Title="Mariah UX"
     >
       <div className="space-y-14">
         <CardList>

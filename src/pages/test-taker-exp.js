@@ -8,7 +8,7 @@ const TestTakerPage = () => {
   return (
     <Template
       pageTitle="Test taker experience"
-      Title="MUX | Test taker exp."
+      Title="Mariah UX"
     >
       <div className="space-y-14">
         <CardList>

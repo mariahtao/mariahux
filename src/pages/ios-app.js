@@ -5,7 +5,7 @@ import ios from "../assets/ios.png";
 
 const IosAppPage = () => {
   return (
-    <Template pageTitle="iOS app" Title="MUX | iOS app">
+    <Template pageTitle="iOS app" Title="Mariah UX">
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>

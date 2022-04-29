@@ -6,7 +6,7 @@ import uptimeNew from "../assets/uptimeNew.png";
 
 const UptimePage = () => {
   return (
-    <Template pageTitle="Uptime UI" Title="MUX | Uptime UI">
+    <Template pageTitle="Uptime UI" Title="Mariah UX">
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
