@@ -1,25 +1,9 @@
 import * as React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
-import CardWork from "../components/cardWork";
 import Card from "../components/card";
 
 const IndexPage = () => {
-  const projects = useStaticQuery(graphql`
-    query Projects {
-      allSanityProjects {
-        nodes {
-          title
-          tags {
-            tag
-          }
-          badges {
-            badge
-          }
-        }
-      }
-    }
-  `);
   return (
     <Layout pageTitle="Hey, I'm Mariah!" title="Mariah UX">
       <div>
@@ -27,7 +11,7 @@ const IndexPage = () => {
           UI ENGINEER + DESIGNER
         </text>
         <svg
-          className="w-80 h-80 md:w-full md:h-auto"
+          className="w-80 h-80 sm:w-full sm:h-auto"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
@@ -121,25 +105,6 @@ const IndexPage = () => {
             href="/snapsheet"
           ></Card>
         </div>
-        {projects.allSanityProjects.nodes.map((project, index) => (
-          <div class="mt-16">
-            <CardWork>
-              <h3>{project.title}</h3>
-              {project.tags.map((tag, tagIndex) => {
-                if (tagIndex === project.tags.length - 1) {
-                  return tag.tag;
-                }
-                return `${tag.tag} • `;
-              })}
-              {project.badges.map((badge, badgeIndex) => {
-                if (badgeIndex === project.badges.length - 1) {
-                  return badge.badge;
-                }
-                return `${badge.badge}`;
-              })}
-            </CardWork>
-          </div>
-        ))}
       </div>
     </Layout>
   );

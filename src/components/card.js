@@ -4,7 +4,7 @@ const Card = ({ h3, badge1, badge2, badge3, tag1, tag2, tag3, children, href }) 
   return (
     <div class="card">
       <main className="space-y-4">
-        <div class="flex items-center flex-wrap gap-2 md:justify-between">
+        <div class="flex items-center flex-wrap gap-2 sm:justify-between">
           <h3 className="mb-0">{h3}</h3>
           <a href={href}>
             <button

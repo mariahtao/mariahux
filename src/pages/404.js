@@ -7,9 +7,14 @@ const NotFoundPage = () => {
       <p class="text-8xl mb-8">¯\_(ツ)_/¯</p>
       <p class="text-xl text-semibold">Yikes! 😬</p>
       <p>It looks like the page you're looking for doesn't exist.</p>
-      <button href="/" type="button" class="text-white bg-grey-400 hover:bg-grey-100 focus:ring-2 focus:ring-aqua-100 font-medium rounded text-base px-4 py-2 text-center inline-flex items-center">
-        Return home
-      </button>
+      <a href="/">
+        <button
+          type="button"
+          class="bg-grey-300 border border-white/20 hover:bg-grey-400 focus:ring-2 focus:ring-aqua-400 rounded px-4 py-2 text-center flex-initial inline-flex items-center gap-1 shadow-lg shadow-aqua-400/10 transition-all duration-500 ease-in-out"
+        >
+          Return home
+        </button>
+      </a>
     </Layout>
   );
 };

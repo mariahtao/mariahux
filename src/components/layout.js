@@ -1,21 +1,55 @@
 import * as React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
 import Nav from "./nav.js";
-import Transition from "./transitions.js";
+import { motion, AnimatePresence } from "framer-motion";
+import { Location } from "@reach/router";
 
-const Layout = ({ pageTitle, title, location, children }) => {
+const duration = 0.5;
+
+const variants = {
+  initial: {
+    opacity: 0,
+  },
+  enter: {
+    opacity: 1,
+    transition: {
+      ease: "easeInOut",
+      duration: duration,
+      delay: duration,
+      when: "beforeChildren",
+    },
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: duration },
+  },
+};
+
+const Layout = ({ pageTitle, title, children }) => {
   return (
-    <div className="block absolute md:relative pt-0 md:pt-10 pb-14 max-w-4xl container">
+    <div className="block absolute sm:relative pt-0 sm:pt-12 pb-14 max-w-4xl container">
       <div className="flex">
         <div className="flex-none">
           <Nav />
         </div>
         <div className="w-full">
-          <main className="flex-auto md:pt-0 pt-14 md:ml-56">
+          <main className="flex-auto sm:pt-0 pt-14 sm:ml-56">
+            <Location>
+              {({ location }) => (
+                <AnimatePresence>
+                  <motion.main
+                    key={location.pathname}
+                    variants={variants}
+                    initial="initial"
+                    animate="enter"
+                    exit="exit"
+                  >
+                    <h1>{pageTitle}</h1>
+                    {children}
+                  </motion.main>
+                </AnimatePresence>
+              )}
+            </Location>
             <title>{title}</title>
-            <Transition location={location}></Transition>
-            <h1>{pageTitle}</h1>
-            {children}
           </main>
         </div>
       </div>
