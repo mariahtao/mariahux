@@ -2,7 +2,7 @@ import * as React from "react";
 
 const CardList = ({ children }) => {
   return (
-    <div class="card">
+    <div className="card">
       <main className="col-span-1">{children}</main>
     </div>
   );

@@ -17,20 +17,14 @@
     h5 {
         @apply text-base font-medium;
     }
-    h6 {
-        @apply text-sm font-semibold;
-    }
     p {
         @apply text-base mb-6;
     }
-    .text-small {
-        @apply text-sm mb-6;
+    p.small{
+        @apply text-sm text-grey-500;
     }
     ul {
         @apply list-disc mb-2;
-    }
-    ol {
-        @apply list-decimal mb-6;
     }
     li {
         @apply list-inside mb-2;
@@ -50,6 +44,12 @@
     .link {
         @apply text-aqua-500 font-semibold relative cursor-pointer;
     }
+    link.nav {
+        @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 active:bg-grey-300 transition-all duration-500 ease-in-out
+    }
+    a.nav {
+        @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out
+    }
     img {
         @apply mt-6 rounded shadow-2xl shadow-aqua-400/10
     }
@@ -68,6 +68,12 @@
     html {
         font-family: Proxima Nova, system-ui, sans-serif;
         @apply bg-grey-100 text-white;
+    }
+    text.gradient {
+        @apply font-semibold text-lg text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100
+    }
+    button.default {
+        @apply bg-grey-300 border border-white/20 hover:bg-grey-400 focus:ring-2 focus:ring-aqua-400 rounded px-4 py-2 text-center flex-initial inline-flex items-center gap-1 shadow-lg shadow-aqua-400/10 transition-all duration-500 ease-in-out
     }
     .dev-motion {
         stroke: #07BEB8;

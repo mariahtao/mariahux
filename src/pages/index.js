@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Hey, I'm Mariah!" title="Mariah UX">
       <div>
-        <text className="font-sb text-lg text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">
+        <text className="gradient">
           UI ENGINEER + DESIGNER
         </text>
         <svg
@@ -44,7 +44,7 @@ const IndexPage = () => {
         <p> Here is my select work. </p>
         <div className="mt-16 space-y-10">
           <Card
-            h3="Roos design system"
+            h2="Roos design system"
             badge1="UX lead"
             badge2="Product manager"
             badge3="Front-end"
@@ -54,7 +54,7 @@ const IndexPage = () => {
             href="/roos"
           ></Card>
           <Card
-            h3="Exam admin experience"
+            h2="Exam admin experience"
             badge1="UX lead"
             badge2="User researcher"
             badge3="Product manager"
@@ -64,7 +64,7 @@ const IndexPage = () => {
             href="/exam-admin-exp"
           ></Card>
           <Card
-            h3="Test taker experience"
+            h2="Test taker experience"
             badge1="UX lead"
             badge2="User researcher"
             badge3="Product manager"
@@ -74,7 +74,7 @@ const IndexPage = () => {
             href="/test-taker-exp"
           ></Card>
           <Card
-            h3="Uptime UI"
+            h2="Uptime UI"
             badge1="UX lead"
             badge2="Product manager"
             badge3="Mentor"
@@ -84,7 +84,7 @@ const IndexPage = () => {
             href="/uptime-ui"
           ></Card>
           <Card
-            h3="iOS app"
+            h2="iOS app"
             badge1="UX lead"
             badge2="Q/A"
             badge3="Product manager"
@@ -94,7 +94,7 @@ const IndexPage = () => {
             href="/ios-app"
           ></Card>
           <Card
-            h3="Snapsheet's CORE + VICE"
+            h2="Snapsheet's CORE + VICE"
             badge1="Product designer"
             badge2="User researcher"
             badge3="Tech writer"
