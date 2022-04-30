@@ -31,27 +31,27 @@ const AboutPage = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <CardList>
-            <ul class="list-none mb-0">
-              <li class="start">Favorite cryptos</li>
-              <li class="mid">HBAR</li>
-              <li class="mid">CRV</li>
-              <li class="end">ALGO</li>
+            <ul className="list-none mb-0">
+              <li className="start">Favorite cryptos</li>
+              <li className="mid">HBAR</li>
+              <li className="mid">CRV</li>
+              <li className="end">ALGO</li>
             </ul>
           </CardList>
           <CardList>
-            <ul class="list-none mb-0">
-              <li class="start">Streetwear staples</li>
-              <li class="mid">ksubi bucket bag</li>
-              <li class="mid">Bao Bao matte tote</li>
-              <li class="end">AJ1 chicago red</li>
+            <ul className="list-none mb-0">
+              <li className="start">Streetwear staples</li>
+              <li className="mid">ksubi bucket bag</li>
+              <li className="mid">Bao Bao matte tote</li>
+              <li className="end">AJ1 chicago red</li>
             </ul>
           </CardList>
           <CardList>
-            <ul class="list-none mb-0">
-              <li class="start font-medium">Favorite animes</li>
-              <li class="mid">Demon Slayer</li>
-              <li class="mid">Inuyasha</li>
-              <li class="end">Deathnote</li>
+            <ul className="list-none mb-0">
+              <li className="start font-medium">Favorite animes</li>
+              <li className="mid">Demon Slayer</li>
+              <li className="mid">Inuyasha</li>
+              <li className="end">Deathnote</li>
             </ul>
           </CardList>
         </div>
@@ -65,7 +65,7 @@ const AboutPage = () => {
                 ill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#a)">
+                <g clipPath="url(#a)">
                   <path
                     d="M8.002 24c2.208 0 4-1.792 4-4v-4h-4c-2.208 0-4 1.792-4 4s1.792 4 4 4z"
                     fill="#0ACF83"
@@ -94,7 +94,7 @@ const AboutPage = () => {
                 </defs>
               </svg>
               <span>
-                <h5 class="w-full">Figma</h5>
+                <h5 className="w-full">Figma</h5>
               </span>
             </CardImg>
             <CardImg>
@@ -118,7 +118,7 @@ const AboutPage = () => {
                 />
               </svg>
               <span>
-                <h5 class="w-full">Storybook</h5>
+                <h5 className="w-full">Storybook</h5>
               </span>
             </CardImg>
             <CardImg>
@@ -151,7 +151,7 @@ const AboutPage = () => {
                 <path d="M11.976 1 4.85 8.729H19.1L11.976 1z" fill="#FEEEB7" />
               </svg>
               <span>
-                <h5 class="w-full">Sketch</h5>
+                <h5 className="w-full">Sketch</h5>
               </span>
             </CardImg>
             <CardImg>
@@ -178,7 +178,7 @@ const AboutPage = () => {
                   fill="url(#A)"
                 />
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm16.578 14.978l-3.023.605c-.26.052-.26.423 0 .475l3.023.605a.97.97 0 0 1 .76.76l.605 3.023c.052.26.423.26.475 0l.605-3.023a.97.97 0 0 1 .76-.76l3.023-.605c.26-.052.26-.423 0-.475l-3.023-.605a.97.97 0 0 1-.76-.76l-.605-3.023c-.052-.26-.423-.26-.475 0l-.605 3.023a.97.97 0 0 1-.76.76zm-7.383 3.027l1.005-.201a.97.97 0 0 0 .76-.76l.201-1.005c.052-.26.423-.26.475 0l.201 1.005a.97.97 0 0 0 .76.76l1.005.201c.26.052.26.423 0 .475l-1.005.201a.97.97 0 0 0-.76.76l-.201 1.005c-.052.26-.423.26-.475 0l-.201-1.005a.97.97 0 0 0-.76-.76l-1.005-.201c-.26-.052-.26-.423 0-.475zM1.5 9.5c0-4.408 3.592-8 8-8s8 3.232 8 7.2c0 2.648-2.152 4.8-4.8 4.8h-1.416c-.224 0-.4.176-.4.4 0 .096.04.184.104.264.328.376.512.848.512 1.336a2 2 0 0 1-2 2c-4.408 0-8-3.592-8-8z"
                   fill="url(#A)"
                 />
@@ -191,13 +191,13 @@ const AboutPage = () => {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(12 20.5) rotate(-122.957) scale(27.1132 37.5933)"
                   >
-                    <stop stop-color="#e6fffc" />
-                    <stop offset="1" stop-color="#07beb8" />
+                    <stop stopColor="#e6fffc" />
+                    <stop offset="1" stopColor="#07beb8" />
                   </radialGradient>
                 </defs>
               </svg>
               <span>
-                <h5 class="w-full">Tokens</h5>
+                <h5 className="w-full">Tokens</h5>
               </span>
             </CardImg>
             <CardImg>
@@ -208,7 +208,7 @@ const AboutPage = () => {
                 fill="none"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M6 9.6c.8-3.2 2.8-4.8 6-4.8 4.8 0 5.4 3.6 7.8 4.2 1.6.4 3-.2 4.2-1.8-.8 3.2-2.8 4.8-6 4.8-4.8 0-5.4-3.6-7.8-4.2-1.6-.4-3 .2-4.2 1.8zm-6 7.2C.8 13.6 2.8 12 6 12c4.8 0 5.4 3.6 7.8 4.2 1.6.4 3-.2 4.2-1.8-.8 3.2-2.8 4.8-6 4.8-4.8 0-5.4-3.6-7.8-4.2-1.6-.4-3 .2-4.2 1.8z"
                   fill="url(#A)"
                 />
@@ -221,13 +221,13 @@ const AboutPage = () => {
                     y2="32"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#2383ae" />
-                    <stop offset="1" stop-color="#6dd7b9" />
+                    <stop stopColor="#2383ae" />
+                    <stop offset="1" stopColor="#6dd7b9" />
                   </linearGradient>
                 </defs>
               </svg>
               <span>
-                <h5 class="w-full">Tailwind</h5>
+                <h5 className="w-full">Tailwind</h5>
               </span>
             </CardImg>
             <CardImg>
@@ -243,7 +243,7 @@ const AboutPage = () => {
                 />
               </svg>
               <span>
-                <h5 class="w-full">react.js</h5>
+                <h5 className="w-full">react.js</h5>
               </span>
             </CardImg>
             <CardImg>
@@ -253,7 +253,7 @@ const AboutPage = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#a)">
+                <g clipPath="url(#a)">
                   <path
                     d="M20.653 13.34a4.944 4.944 0 0 0-2.175.507c-.225-.445-.45-.835-.487-1.125-.043-.338-.094-.544-.043-.947.052-.403.286-.975.286-1.022-.004-.042-.051-.248-.534-.253-.483-.005-.9.094-.947.22-.047.127-.14.417-.201.717-.085.441-.966 2.002-1.468 2.822-.164-.318-.304-.6-.332-.825-.043-.337-.094-.543-.043-.946.052-.404.286-.976.286-1.022-.004-.042-.051-.249-.534-.253-.483-.005-.9.093-.947.22-.047.126-.098.426-.201.717-.099.29-1.27 2.897-1.575 3.577-.155.346-.291.623-.39.81-.098.188-.004.015-.014.033l-.13.249v.005c-.067.117-.137.23-.17.23-.023 0-.07-.315.01-.746.173-.905.595-2.316.59-2.367 0-.024.08-.272-.271-.399-.343-.126-.464.085-.493.085-.028 0-.051.075-.051.075s.38-1.59-.727-1.59c-.694 0-1.65.755-2.123 1.444-.3.164-.938.511-1.613.882-.258.14-.525.29-.778.426l-.051-.056c-1.341-1.43-3.82-2.442-3.718-4.364.038-.699.282-2.54 4.763-4.772 3.67-1.828 6.61-1.327 7.12-.211.727 1.594-1.57 4.556-5.386 4.983-1.453.164-2.217-.399-2.41-.61-.2-.22-.229-.23-.304-.187-.122.066-.047.262 0 .38.113.295.581.82 1.378 1.082.699.23 2.405.357 4.468-.44 2.31-.896 4.115-3.38 3.585-5.456-.539-2.115-4.045-2.808-7.359-1.632-1.973.703-4.11 1.8-5.648 3.24C.188 8.526-.104 10.016.019 10.635c.426 2.208 3.469 3.647 4.687 4.71l-.168.095c-.61.3-2.93 1.514-3.511 2.798-.657 1.453.103 2.498.609 2.64 1.566.435 3.169-.348 4.036-1.637.862-1.289.76-2.962.36-3.726l-.013-.028.478-.282c.31-.182.614-.351.881-.497-.15.408-.258.891-.314 1.594-.066.825.272 1.894.717 2.316.197.183.432.187.577.187.515 0 .75-.426 1.008-.937.318-.624.6-1.346.6-1.346s-.352 1.955.609 1.955c.352 0 .703-.455.863-.689v.005l.028-.047c.037-.056.056-.09.056-.09v-.009c.14-.243.455-.801.923-1.724.605-1.191 1.186-2.682 1.186-2.682s.057.366.23.966c.103.356.328.745.502 1.125-.141.197-.226.31-.226.31l.005.004c-.112.15-.239.31-.37.469-.478.572-1.05 1.223-1.125 1.41-.09.22-.07.385.103.516.127.094.352.113.59.094.432-.028.732-.136.882-.202.234-.084.502-.21.76-.398.468-.347.754-.84.726-1.495-.014-.361-.131-.718-.277-1.055.043-.061.085-.122.127-.188.74-1.082 1.312-2.273 1.312-2.273s.057.366.23.966c.09.304.267.637.427.965-.694.568-1.13 1.224-1.28 1.655-.277.797-.061 1.158.347 1.242.183.038.445-.047.642-.131.244-.08.539-.216.81-.417.47-.347.92-.83.896-1.482a2.838 2.838 0 0 0-.201-.876c.59-.244 1.354-.384 2.325-.267 2.086.244 2.498 1.547 2.418 2.09-.08.544-.515.844-.66.938-.146.089-.193.122-.179.187.02.099.085.094.211.075.174-.028 1.097-.445 1.135-1.448.056-1.29-1.168-2.695-3.338-2.681zM4.566 18.765c-.69.755-1.66 1.04-2.072.797-.446-.258-.272-1.369.576-2.17.516-.488 1.186-.938 1.627-1.214.098-.061.248-.15.426-.258.029-.019.047-.028.047-.028l.108-.066c.314 1.144.014 2.147-.712 2.94zm5.039-3.426c-.24.586-.746 2.09-1.05 2.006-.263-.07-.422-1.21-.052-2.335.188-.567.586-1.242.82-1.504.38-.422.793-.563.896-.39.122.226-.464 1.857-.614 2.223zm4.157 1.987c-.103.052-.196.09-.239.061-.032-.019.043-.09.043-.09s.52-.557.726-.815c.117-.15.258-.323.408-.52v.056c0 .675-.647 1.125-.938 1.308zm3.207-.731c-.075-.056-.066-.23.187-.774.099-.215.324-.576.713-.918.047.14.075.276.07.403-.005.843-.605 1.157-.97 1.289z"
                     fill="#CF649A"
@@ -266,7 +266,7 @@ const AboutPage = () => {
                 </defs>
               </svg>
               <span>
-                <h5 class="w-full">SASS</h5>
+                <h5 className="w-full">SASS</h5>
               </span>
             </CardImg>
           </div>
@@ -275,21 +275,21 @@ const AboutPage = () => {
           <h3> Favorite design systems + component libraries </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="start">Human Interface Guidelines</li>
-                <li class="end">@ Apple</li>
+              <ul className="list-none mb-0">
+                <li className="start">Human Interface Guidelines</li>
+                <li className="end">@ Apple</li>
               </ul>
             </CardList>
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="start">Primer</li>
-                <li class="end">@ Github</li>
+              <ul className="list-none mb-0">
+                <li className="start">Primer</li>
+                <li className="end">@ Github</li>
               </ul>
             </CardList>
             <CardList>
-              <ul class="list-none mb-0">
-                <li class="start">MUI</li>
-                <li class="end">@ MUI</li>
+              <ul className="list-none mb-0">
+                <li className="start">MUI</li>
+                <li className="end">@ MUI</li>
               </ul>
             </CardList>
           </div>
