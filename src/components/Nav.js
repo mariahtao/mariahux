@@ -97,7 +97,7 @@ const Nav = () => {
             </li>
             <li className="flex-inital items-center sm:flex-none">
               <a
-                href="mailto:mariahtao@gmail.com"
+                href='mailto:mariahtao@gmail.com'
                 className="flex items-center nav"
               >
                 <svg
