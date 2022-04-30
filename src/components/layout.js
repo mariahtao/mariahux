@@ -26,7 +26,7 @@ const variants = {
 
 const Layout = ({ pageTitle, title, children }) => {
   return (
-    <div className="block absolute sm:relative pt-0 sm:pt-12 pb-14 max-w-4xl container">
+    <div className="block absolute sm:relative main">
       <div className="flex">
         <div className="flex-none">
           <Nav />

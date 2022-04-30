@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Hey, I'm Mariah!" title="Mariah UX">
       <div>
-        <text className="gradient">
+        <text className="font-sb text-lg text-transparent bg-clip-text bg-gradient-to-r from-aqua-600 to-aqua-100">
           UI ENGINEER + DESIGNER
         </text>
         <svg

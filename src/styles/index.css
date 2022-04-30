@@ -41,11 +41,11 @@
     li.end {
         @apply list-inside text-aqua-500 mb-0 w-full py-1 font-semibold;
     }
-    .link {
-        @apply text-aqua-500 font-semibold relative cursor-pointer;
+    nav {
+        @apply h-12 sm:h-full sm:w-48 w-full px-8 p-2 sm:p-0 sm:px-0 sm:mb-12 backdrop-blur-3xl
     }
     link.nav {
-        @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 active:bg-grey-300 transition-all duration-500 ease-in-out
+        @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out
     }
     a.nav {
         @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out
@@ -61,6 +61,9 @@
     }
     span.tag {
         @apply text-sm font-medium text-grey-600
+    }
+    div.main {
+        @apply pt-0 sm:pt-12 pb-14 max-w-4xl container
     }
     div.card {
         @apply block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-xl shadow-aqua-400/10
