@@ -14,5 +14,17 @@ module.exports = {
         devMode: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-direct-import`,
+      options: {
+        packages: [
+          "my-package-name",
+          {
+            "name": "my-package-name/sub-package",
+            "indexFile": "my-package-name/sub-package/index.es.js"
+          }
+        ],
+      },
+    },
   ],
 }
