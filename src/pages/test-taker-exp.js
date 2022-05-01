@@ -30,7 +30,7 @@ const TestTakerPage = () => {
             integrate with various learning management platforms. In this
             project, I improved the test taking experience for a student.
           </p>
-          <h3>Problem statment</h3>
+          <h3>Problem statement</h3>
           <p>
             To keep up with our growing user base the software needed to improve
             in efficiency and overall experience. The existing test taker exam

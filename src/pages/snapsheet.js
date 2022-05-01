@@ -107,22 +107,22 @@ const ProjectTrackingPage = () => {
                 </li>
                 <li className="default">Different data views and color coding</li>
                 <li className="default">
-                  Completed actions/completed tasks per a day
+                  Completed actions & tasks per a day
                 </li>
                 <li className="default">Data visualization & metrics</li>
               </ul>
             </CardList>
             <CardList>
               <p className="mb-2 font-semibold text-aqua-500">
-                Individual contributor persona
+                Individual contributor (IC) persona
               </p>
               <ul className="mb-0">
                 <li className="default">
                   Prioritized list of what needs to be done today or this week
-                  and notification for outstanding tasks
                 </li>
+                <li className="default">Notifications for outstanding tasks</li>
                 <li className="default">
-                  Tracking how many files someone is closing and touching a day
+                  Tracking how many files an IC is opening and closing a day
                 </li>
               </ul>
             </CardList>
@@ -165,7 +165,7 @@ const ProjectTrackingPage = () => {
             <ul className="mb-4">
               <li className="default">Team performance data</li>
               <li className="default">Alerts</li>
-              <li className="default">Preformance goals</li>
+              <li className="default">Performance goals</li>
             </ul>
           </div>
         </div>

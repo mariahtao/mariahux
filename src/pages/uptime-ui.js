@@ -19,7 +19,7 @@ const UptimePage = () => {
         </CardList>
         <div>
             <h2>Scope</h2>
-            <h3>Problem statment</h3>
+            <h3>Problem statement</h3>
             <p>The existing uptime status page had outdated and archaic design patterns and provided little context or insight into downtime or degradation.</p>
             <img src={uptimeOld} alt="old uptime"></img>
             <h3 className="pt-6">Goal</h3>

@@ -41,9 +41,9 @@ const AboutPage = () => {
           <CardList>
             <ul className="list-none mb-0">
               <li className="start">Streetwear staples</li>
-              <li className="mid">ksubi bucket bag</li>
-              <li className="mid">Bao Bao matte tote</li>
-              <li className="end">AJ1 chicago red</li>
+              <li className="mid">Ksubi Mini Bag Black</li>
+              <li className="mid">Bao Bao Matte Tote</li>
+              <li className="end">AJ1 Mids</li>
             </ul>
           </CardList>
           <CardList>
@@ -51,7 +51,7 @@ const AboutPage = () => {
               <li className="start font-medium">Favorite animes</li>
               <li className="mid">Demon Slayer</li>
               <li className="mid">Inuyasha</li>
-              <li className="end">Deathnote</li>
+              <li className="end">Death Note</li>
             </ul>
           </CardList>
         </div>
@@ -276,8 +276,8 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
             <CardList>
               <ul className="list-none mb-0">
-                <li className="start">Human Interface Guidelines</li>
-                <li className="end">@ Apple</li>
+                <li className="start">MUI</li>
+                <li className="end">@ Material UI</li>
               </ul>
             </CardList>
             <CardList>
@@ -288,8 +288,8 @@ const AboutPage = () => {
             </CardList>
             <CardList>
               <ul className="list-none mb-0">
-                <li className="start">MUI</li>
-                <li className="end">@ MUI</li>
+                <li className="start">Polaris</li>
+                <li className="end">@ Shopify</li>
               </ul>
             </CardList>
           </div>

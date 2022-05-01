@@ -25,7 +25,7 @@ const IosAppPage = () => {
         </CardList>
         <div>
           <h2>Scope</h2>
-          <h3>Problem statment</h3>
+          <h3>Problem statement</h3>
           <p>
             To keep up with the growing user base, the software needed to adapt
             for more accessible use. Test takers could only access the software

@@ -18,7 +18,7 @@ const DSManagerPage = () => {
             </li>
             <li className="default">Design all UI components</li>
             <li className="default">Create all styles and css variables</li>
-            <li className="default"> Document all useage and setup</li>
+            <li className="default"> Document all use and setup</li>
           </ul>
         </CardList>
         <div>
@@ -34,7 +34,7 @@ const DSManagerPage = () => {
           <h3>Goal</h3>
           <p>
             Scale the design system to support all the products the company
-            offers and create a great experience for the designer and builders
+            offers and create a great experience for the designer and developers
             creating the products.
           </p>
           <h3>Resources</h3>
@@ -56,11 +56,11 @@ const DSManagerPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <CardList>
               <p className="mb-2 font-semibold text-aqua-500">Accessibility</p>
-              <p className="mb-0">I implemented accessibility standards (WCAG AA) into thedesign system to ensure all of our products followedaccessibility standards from its core.</p>
+              <p className="mb-0">I implemented accessibility standards (WCAG AA) into the design system to ensure all of our products followed accessibility standards from its core.</p>
             </CardList>
             <CardList>
               <p className="mb-2 font-semibold text-aqua-500">Variants</p>
-              <p className="mb-0">In Figma, I utilized the variants feature to help scale andbuild components. This helped to define the use cases fordifferent components and speed up prototyping when designing.</p>
+              <p className="mb-0">In Figma, I utilized the variants feature to help scale and build components. This helped to define the use cases for different components and speed up prototyping when designing.</p>
             </CardList>
             <CardList>
               <p className="mb-2 font-semibold text-aqua-500">Documentation</p>

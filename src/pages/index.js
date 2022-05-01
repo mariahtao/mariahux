@@ -41,7 +41,7 @@ const IndexPage = () => {
           systems. In my work, you will find that research and creativity are a
           vital part of my problem solving process!
         </p>
-        <p> Here is my select work. </p>
+        <p> Here is my selected work. </p>
         <div className="mt-16 space-y-10">
           <Card
             h2="Roos Design System"

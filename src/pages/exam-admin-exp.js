@@ -37,7 +37,7 @@ const ExamAdminPage = () => {
             test lasted about 60 minutes. I performed the role of facilitator,
             note taker, and analyzed and prioritized all results.
           </p>
-          <h3>Problem statment</h3>
+          <h3>Problem statement</h3>
           <p>
             The remote test proctoring experience for an exam admin needed to be
             improved drastically with online school becoming the norm. The
