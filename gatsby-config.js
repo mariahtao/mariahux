@@ -16,9 +16,9 @@ module.exports = {
     {
       resolve: "gatsby-source-sanity",
       options: {
-        projectId: "uct4hy7z",
-        dataset: "production",
-        token: "skKzkUZLRjH56F6jKm67gWeySbJ5vf9mHKotaFBAdfsixo8uOuWbl8JO0vy1RG92mU875T4OWy4Jn1Uj7saAuOtwStgYDFctp9BixuiaoesTBa1gstD7vpuuFnKC8BioncAAHuZQ9hy0f59iv0FnoRcUrE9rNiSRO8qqR8KrUpYqhzYw23mp",
+        projectId: "",
+        dataset: "",
+        token: "",
       },
     },
     {
