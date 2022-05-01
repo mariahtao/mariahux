@@ -4,7 +4,7 @@ import Card from "../components/card";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Hey, I'm Mariah!" title="Mariah UX">
+    <Layout pageTitle="Hey, I'm Mariah!" title="Mariah Tao">
       <div>
         <text className="gradient">
           UI ENGINEER + DESIGNER
@@ -44,14 +44,14 @@ const IndexPage = () => {
         <p> Here is my select work. </p>
         <div className="mt-16 space-y-10">
           <Card
-            h2="Roos design system"
+            h2="Roos Design System"
             badge1="UX lead"
             badge2="Product manager"
             badge3="Front-end"
             tag1="ML/AI"
             tag2="Saas Enterprise"
             tag3="Edtech"
-            href="/roos"
+            href="/rds"
           ></Card>
           <Card
             h2="Exam admin experience"

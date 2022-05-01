@@ -6,19 +6,19 @@ import rds from "../assets/rds.png";
 const DSManagerPage = () => {
   return (
     <Template
-      pageTitle="Roos design system"
-      Title="Mariah UX"
+      pageTitle="Roos Design System"
+      Title="Mariah Tao"
     >
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul class="mb-0">
-            <li class="default">
+          <ul className="mb-0">
+            <li className="default">
               Manage, maintain, and scale the design system and components
             </li>
-            <li class="default">Design all UI components</li>
-            <li class="default">Create all styles and css variables</li>
-            <li class="default"> Document all useage and setup</li>
+            <li className="default">Design all UI components</li>
+            <li className="default">Create all styles and css variables</li>
+            <li className="default"> Document all useage and setup</li>
           </ul>
         </CardList>
         <div>
@@ -39,19 +39,19 @@ const DSManagerPage = () => {
           </p>
           <h3>Resources</h3>
           <ul>
-            <li class="default">
+            <li className="default">
               I decided to use Lightning Design System by Salesforce as
               inspiration for scaling this design system
             </li>
-            <li class="default">Figma (design environment)</li>
-            <li class="default">VS code, Storybook (dev environment)</li>
-            <li class="default">
+            <li className="default">Figma (design environment)</li>
+            <li className="default">VS code, Storybook (dev environment)</li>
+            <li className="default">
               An in-house frontend framework with vanilla JS used to create web
               components
             </li>
           </ul>
         </div>
-        <div class="space-y-6">
+        <div className="space-y-6">
           <h2>Best practices</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <CardList>
@@ -99,20 +99,20 @@ const DSManagerPage = () => {
         <div>
           <h2>Outcome</h2>
           <ul>
-            <li class="default">
+            <li className="default">
               I took the design system from 1 page to 41 pages to accommodate
               all products and features
             </li>
-            <li class="default">
+            <li className="default">
               The design system now includes all UI components for every product
               external and internal, design tokens, and hundreds of frames of
               documentation (refactoring, schemas, dependencies)
             </li>
-            <li class="default">
+            <li className="default">
               Previously, only 3 people in the company looked at Storybook to
               view the design system including myself
             </li>
-            <li class="default">
+            <li className="default">
               Currently, over 50% of the company looks at Storybook to not only
               view the design system, but also demo the product updates and find
               documentation

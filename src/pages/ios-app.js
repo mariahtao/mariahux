@@ -5,20 +5,20 @@ import ios from "../assets/ios.png";
 
 const IosAppPage = () => {
   return (
-    <Template pageTitle="iOS app" Title="Mariah UX">
+    <Template pageTitle="iOS app" Title="Mariah Tao">
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul class="mb-0">
-            <li class="default">Lead the UX for the app design</li>
-            <li class="default">
+          <ul className="mb-0">
+            <li className="default">Lead the UX for the app design</li>
+            <li className="default">
               Project managed the swift developers, graphic designers, and
               content curated for the app
             </li>
-            <li class="default">
+            <li className="default">
               Conducted QA testing with our QA engineers for the app
             </li>
-            <li class="default">
+            <li className="default">
               Work alongside engineering during delivery phase
             </li>
           </ul>
@@ -36,10 +36,10 @@ const IosAppPage = () => {
           <p></p>
           <h3>Resources</h3>
           <ul>
-            <li class="default">
+            <li className="default">
               Tools: Figma, TestFlight, Apple Developer, Azure DevOps
             </li>
-            <li class="default">
+            <li className="default">
               Design system: Integrating Proctorio’s design styles with iOS
               native UI kits and Human Interface Guidelines
             </li>
@@ -51,7 +51,7 @@ const IosAppPage = () => {
             A polished iOS / iPadOS app combining our design system principles
             as well as Human Interface Guidelines and SwiftUI.
           </p>
-          <img class="shadow-none pt-2" src={ios} alt="final app design"></img>
+          <img className="shadow-none pt-2" src={ios} alt="final app design"></img>
         </div>
       </div>
     </Template>

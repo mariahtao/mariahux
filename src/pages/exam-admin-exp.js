@@ -5,20 +5,20 @@ import examAdmin from "../assets/examAdmin.png";
 
 const ExamAdminPage = () => {
   return (
-    <Template pageTitle="Exam admin experience" Title="Mariah UX">
+    <Template pageTitle="Exam admin experience" Title="Mariah Tao">
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul class="mb-0">
-            <li class="default">Redesign the exam admin experience</li>
-            <li class="default">
+          <ul className="mb-0">
+            <li className="default">Redesign the exam admin experience</li>
+            <li className="default">
               Project manage and conduct user research for the product team
             </li>
-            <li class="default">
+            <li className="default">
               Define and document all information architecture interactions,
               flows, behaviors, and dependencies
             </li>
-            <li class="default">
+            <li className="default">
               Work alongside engineering during delivery phase
             </li>
           </ul>
@@ -52,16 +52,16 @@ const ExamAdminPage = () => {
           </p>
           <h3>Timeline</h3>
           <ul>
-            <li class="default">
+            <li className="default">
               Week 1: planning research and recruiting participants
             </li>
-            <li class="default">Week 2 & 3: research sessions</li>
-            <li class="default">
+            <li className="default">Week 2 & 3: research sessions</li>
+            <li className="default">
               Week 4: present finalized results and new product to stakeholders
             </li>
           </ul>
         </div>
-        <div class="space-y-6">
+        <div className="space-y-6">
           <h2>Research methods</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <CardList>
@@ -99,15 +99,15 @@ const ExamAdminPage = () => {
         <div>
           <h2>Outcome</h2>
           <ul>
-            <li class="default">Consistency among design patterns</li>
-            <li class="default">Actions of areas are clearly defined</li>
-            <li class="default">
+            <li className="default">Consistency among design patterns</li>
+            <li className="default">Actions of areas are clearly defined</li>
+            <li className="default">
               Multiple new features for customization, accessibility, and ease
               of use
             </li>
           </ul>
           <img
-            class="shadow-none"
+            className="shadow-none"
             src={examAdmin}
             alt="New features on exam admin products"
           ></img>

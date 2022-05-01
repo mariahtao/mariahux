@@ -7,24 +7,24 @@ const ProjectTrackingPage = () => {
   return (
     <Template
       pageTitle="Snapsheet's CORE + VICE"
-      Title="Mariah UX"
+      Title="Mariah Tao"
     >
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul class="mb-0">
-            <li class="default">
+          <ul className="mb-0">
+            <li className="default">
               Redesign the internal project tracking software and add new
               features
             </li>
-            <li class="default">
+            <li className="default">
               Conduct user research and competitive analysis
             </li>
-            <li class="default">
+            <li className="default">
               Lead work on information architecture, product redesign, design
               system, and tech writing
             </li>
-            <li class="default">
+            <li className="default">
               Work with engineering to define new functionality
             </li>
           </ul>
@@ -55,13 +55,13 @@ const ProjectTrackingPage = () => {
           </p>
           <h3>Timeline</h3>
           <ul>
-            <li class="default">
+            <li className="default">
               Week 1: initial heuristic evaluation, competitive analysis,
               planning research, and recruiting participants
             </li>
-            <li class="default">Week 2: research sessions</li>
-            <li class="default">Week 3: iterated new UI and new features</li>
-            <li class="default">
+            <li className="default">Week 2: research sessions</li>
+            <li className="default">Week 3: iterated new UI and new features</li>
+            <li className="default">
               Week 4: present finalized results and new product to stakeholders
             </li>
           </ul>
@@ -73,11 +73,11 @@ const ProjectTrackingPage = () => {
               <p className="mb-2 font-semibold text-aqua-500">
                 Standardizing user research
               </p>
-              <ul class="mb-0">
-                <li class="default">
+              <ul className="mb-0">
+                <li className="default">
                   Created a pipeline for user research from the ground up
                 </li>
-                <li class="default">
+                <li className="default">
                   Created a company wide standard format for user research
                 </li>
               </ul>
@@ -86,9 +86,9 @@ const ProjectTrackingPage = () => {
               <p className="mb-2 font-semibold text-aqua-500">
                 User interviews
               </p>
-              <ul class="mb-0">
-                <li class="default">Conducted 8 user interviews</li>
-                <li class="default">
+              <ul className="mb-0">
+                <li className="default">Conducted 8 user interviews</li>
+                <li className="default">
                   Personas interviewed: manager and individual contributor
                 </li>
               </ul>
@@ -100,28 +100,28 @@ const ProjectTrackingPage = () => {
               <p className="mb-2 font-semibold text-aqua-500">
                 Manager persona
               </p>
-              <ul class="mb-0">
-                <li class="default">
+              <ul className="mb-0">
+                <li className="default">
                   Automatic alerts/escalation on files to prioritize things that
                   are overdue
                 </li>
-                <li class="default">Different data views and color coding</li>
-                <li class="default">
+                <li className="default">Different data views and color coding</li>
+                <li className="default">
                   Completed actions/completed tasks per a day
                 </li>
-                <li class="default">Data visualization & metrics</li>
+                <li className="default">Data visualization & metrics</li>
               </ul>
             </CardList>
             <CardList>
               <p className="mb-2 font-semibold text-aqua-500">
                 Individual contributor persona
               </p>
-              <ul class="mb-0">
-                <li class="default">
+              <ul className="mb-0">
+                <li className="default">
                   Prioritized list of what needs to be done today or this week
                   and notification for outstanding tasks
                 </li>
-                <li class="default">
+                <li className="default">
                   Tracking how many files someone is closing and touching a day
                 </li>
               </ul>
@@ -139,33 +139,33 @@ const ProjectTrackingPage = () => {
             <h3>Task manager new features</h3>
             <h4>Objective</h4>
             <ul className="mb-4">
-              <li class="default">
+              <li className="default">
                 To see an overview of all tasks that have been assigned
                 currently
               </li>
-              <li class="default">
+              <li className="default">
                 To quickly identify tasks that require immediate attention
               </li>
             </ul>
             <h4>Key features</h4>
             <ul className="mb-4">
-              <li class="default">Customizable data view</li>
-              <li class="default">Refresh new tasks into queue</li>
+              <li className="default">Customizable data view</li>
+              <li className="default">Refresh new tasks into queue</li>
             </ul>
           </div>
-          <div class="mt-4">
+          <div className="mt-4">
             <h3>Analytics overview</h3>
             <h4>Objective</h4>
             <ul className="mb-4">
-              <li class="default">To be able to see a general overview of historical performance with data visualization and metrics</li>
-              <li class="default">Areas that require attention or immediate action</li>
-              <li class="default">Understand goals for the day</li>
+              <li className="default">To be able to see a general overview of historical performance with data visualization and metrics</li>
+              <li className="default">Areas that require attention or immediate action</li>
+              <li className="default">Understand goals for the day</li>
             </ul>
             <h4>Key features</h4>
             <ul className="mb-4">
-              <li class="default">Team performance data</li>
-              <li class="default">Alerts</li>
-              <li class="default">Preformance goals</li>
+              <li className="default">Team performance data</li>
+              <li className="default">Alerts</li>
+              <li className="default">Preformance goals</li>
             </ul>
           </div>
         </div>

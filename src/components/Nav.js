@@ -19,7 +19,7 @@ const Nav = () => {
                 src={fav}
                 alt="fav logo"
               ></img>
-              <span className="ml-3">mariahux</span>
+              <span className="ml-3">Mariah</span>
             </Link>
           </li>
           <div className="contents">
@@ -97,7 +97,7 @@ const Nav = () => {
             </li>
             <li className="flex-inital items-center sm:flex-none">
               <a
-                href='mailto:mariahtao@gmail.com'
+                href="mailto:mariahtao@gmail.com"
                 className="flex items-center nav"
               >
                 <svg

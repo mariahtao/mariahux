@@ -8,17 +8,17 @@ const TestTakerPage = () => {
   return (
     <Template
       pageTitle="Test taker experience"
-      Title="Mariah UX"
+      Title="Mariah Tao"
     >
       <div className="space-y-14">
         <CardList>
           <h2>My role</h2>
-          <ul class="mb-0">
-            <li class="default">Redesign the entire test taker experience</li>
-            <li class="default">
+          <ul className="mb-0">
+            <li className="default">Redesign the entire test taker experience</li>
+            <li className="default">
               Project manage and conduct user research for the product team
             </li>
-            <li class="default">
+            <li className="default">
               Work alongside engineering during delivery phase
             </li>
           </ul>
@@ -38,23 +38,23 @@ const TestTakerPage = () => {
             taking even more difficult for students.
           </p>
           <h3>Goals</h3>
-          <ul class="pb-4">
-            <li class="default">
+          <ul className="pb-4">
+            <li className="default">
               Reduce the anxiety and stress for a test taker with an ideal
               experience for setting up an exam
             </li>
-            <li class="default">
+            <li className="default">
               Improve the functionality, flow, navigation, and the design of the
               new version
             </li>
           </ul>
           <h3>Timeline</h3>
           <ul>
-            <li class="default">
+            <li className="default">
               Week 1: planning research and recruiting participants
             </li>
-            <li class="default">Week 2 & 3: research sessions</li>
-            <li class="default">
+            <li className="default">Week 2 & 3: research sessions</li>
+            <li className="default">
               Week 4: present finalized results and new product to stakeholders
             </li>
           </ul>
@@ -66,12 +66,12 @@ const TestTakerPage = () => {
               <p className="mb-2 font-semibold text-aqua-500">
                 User interviews
               </p>
-              <ul class="mb-0">
-                <li class="default">
+              <ul className="mb-0">
+                <li className="default">
                   Asking questions to understand the behavior of users while
                   preparing for an exam
                 </li>
-                <li class="default">
+                <li className="default">
                   Understanding different use cases that can lead to pain points
                 </li>
               </ul>
@@ -80,11 +80,11 @@ const TestTakerPage = () => {
               <p className="mb-2 font-semibold text-aqua-500">
                 Usability tests
               </p>
-              <ul class="mb-0">
-                <li class="default">
+              <ul className="mb-0">
+                <li className="default">
                   Understanding how users navigate new features
                 </li>
-                <li class="default">
+                <li className="default">
                   Ask usability questions to understand the pain points for
                   users
                 </li>
@@ -93,7 +93,7 @@ const TestTakerPage = () => {
           </div>
           <h3>Findings</h3>
           <img
-            class="shadow-none"
+            className="shadow-none"
             src={diagram}
             alt="affinity diagram of research findings"
           ></img>
@@ -101,18 +101,18 @@ const TestTakerPage = () => {
         <div>
           <h2>Outcome</h2>
           <ul>
-            <li class="default">
+            <li className="default">
               Progress indicator to help a test taker understand where they are
               in the exam set up stage
             </li>
-            <li class="default">
+            <li className="default">
               Validation states that clearly define what the user needs to do to
               move forward
             </li>
-            <li class="default">
+            <li className="default">
               Onboarding tooltips to point out new features
             </li>
-            <li class="default">Consistency amongst visual indicators</li>
+            <li className="default">Consistency amongst visual indicators</li>
           </ul>
           <img className="shadow-none" src={tt} alt="final design of new test taker experience"></img>
         </div>
