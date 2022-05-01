@@ -4,8 +4,8 @@
     "name": "mariahux data"
   },
   "api": {
-    "projectId": "uct4hy7z",
-    "dataset": "production"
+    "projectId": "",
+    "dataset": ""
   },
   "plugins": [
     "@sanity/base",
