@@ -3,13 +3,13 @@
 @tailwind utilities;
 @layer base {
     h1 {
-        @apply text-4xl mb-3 sm:text-3xl;
+        @apply sm:text-4xl mb-3 text-3xl;
     }
     h2 {
-        @apply text-3xl mb-4 font-medium sm:text-2xl;
+        @apply sm:text-3xl mb-4 font-medium text-2xl;
     }
     h3 {
-        @apply text-2xl mb-3 font-medium sm:text-xl;
+        @apply sm:text-2xl mb-3 font-medium text-xl;
     }
     h4 {
         @apply text-lg my-2 text-aqua-500 font-semibold;
