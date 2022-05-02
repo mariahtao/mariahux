@@ -125,7 +125,7 @@ const Nav = () => {
                     </radialGradient>
                   </defs>
                 </svg>
-                <span className="hide">Email</span>
+                <span className="hide">Contact</span>
               </a>
             </li>
             <li className="flex-inital items-center sm:flex-none">
@@ -182,7 +182,7 @@ const Nav = () => {
                     fill="#0a66c2"
                   />
                 </svg>
-                <span className="hide">LinkedIn</span>
+                <span className="hide">Connect</span>
               </a>
             </li>
           </div>

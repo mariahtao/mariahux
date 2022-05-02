@@ -47,7 +47,7 @@ const Template = ({ pageTitle, Title, children }) => {
                     <p className="my-14">
                       Due to an NDA contract I am unable to disclose specific
                       contents of my work publicly. If you would like to see my
-                      work, reach out at mariahtao@gmail.com.
+                      work, reach out at <a href="mailto:mariahtao@gmail.com" className="default">mariahtao@gmail.com ›</a>
                     </p>
                     {children}
                   </motion.main>

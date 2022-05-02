@@ -37,8 +37,7 @@ const IndexPage = () => {
           />
         </svg>
         <p>
-          I have 5 + years of experience in product development and design
-          systems. In my work, you will find that research and creativity are a
+          I have <text>5 + years</text> of experience in <text>product development</text> and <text>design systems</text>. In my work, you will find that research and creativity are a
           vital part of my problem solving process!
         </p>
         <p> Here is my selected work. </p>
@@ -86,7 +85,7 @@ const IndexPage = () => {
           <Card
             h2="iOS app"
             badge1="UX lead"
-            badge2="Q/A"
+            badge2="Q/A engineer"
             badge3="Product manager"
             tag1="ML/AI"
             tag2="Saas Enterprise"

@@ -40,7 +40,7 @@ const DSManagerPage = () => {
           <h3>Resources</h3>
           <ul>
             <li className="default">
-              I decided to use Lightning Design System by Salesforce as
+              I decided to use <a href="https://www.lightningdesignsystem.com/" className="default">Lightning Design System</a> by Salesforce as
               inspiration for scaling this design system
             </li>
             <li className="default">Figma (design environment)</li>

@@ -43,7 +43,7 @@ const AboutPage = () => {
               <li className="start">Streetwear staples</li>
               <li className="mid">Ksubi Mini Bag Black</li>
               <li className="mid">Bao Bao Matte Tote</li>
-              <li className="end">AJ1 Mids</li>
+              <li className="end">AJ1s Chicago Red</li>
             </ul>
           </CardList>
           <CardList>
@@ -275,22 +275,16 @@ const AboutPage = () => {
           <h3> Favorite design systems + component libraries </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
             <CardList>
-              <ul className="list-none mb-0">
-                <li className="start">MUI</li>
-                <li className="end">@ Material UI</li>
-              </ul>
+              <p className="mb-4">MUI</p>
+              <a href="https://mui.com/material-ui/getting-started/installation/" className="default">@Material UI ›</a>
             </CardList>
             <CardList>
-              <ul className="list-none mb-0">
-                <li className="start">Primer</li>
-                <li className="end">@ Github</li>
-              </ul>
+              <p className="mb-4">Primer</p>
+              <a href="https://primer.style/react/getting-started" className="default">@Github ›</a>
             </CardList>
             <CardList>
-              <ul className="list-none mb-0">
-                <li className="start">Polaris</li>
-                <li className="end">@ Shopify</li>
-              </ul>
+              <p className="mb-4">Polaris</p>
+              <a href="https://polaris.shopify.com/components/get-started" className="default">@Shopify ›</a>
             </CardList>
           </div>
         </div>
