@@ -32,8 +32,6 @@ const IosAppPage = () => {
             through a computer or laptop. This meant all students needed to have
             access to a computer which isn’t always the case.{" "}
           </p>
-          <h3>Goal</h3>
-          <p></p>
           <h3>Resources</h3>
           <ul>
             <li className="default">
