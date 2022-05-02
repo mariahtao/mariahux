@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className="block fixed inset-x-0 sm:inset-x-auto z-10 bg-grey-100/85 sm:bg-transparent">
       <ul className="list-none sm:mb-12 sm:space-y-1 h-full flex flex-row sm:flex-col justify-between">
-        <div className="flex flex-auto flex-row gap-y-1 sm:gap-x-1 sm:flex-col sm:justify-start justify-between">
+        <div className="flex flex-auto flex-row gap-y-1 sm:gap-x-1 sm:flex-col item-center sm:items-start sm:justify-start justify-between">
           <li> 
             <Link
               className="flex flex-auto sm:flex-none items-center p-1.5 sm:p-1 sm:mb-6 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
