@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="block fixed inset-x-0 sm:inset-x-auto z-10 bg-grey-100/85 sm:bg-transparent">
       <ul className="list-none sm:mb-12 mb-0 sm:space-y-1 h-full flex flex-row sm:flex-col justify-between">
         <div className="flex flex-auto flex-row gap-y-1 sm:gap-x-1 sm:flex-col items-center sm:items-stretch sm:justify-start justify-between">
-          <li> 
+          <li className="nav"> 
             <Link
               className="flex flex-auto sm:flex-none items-center p-1.5 sm:p-1 sm:mb-6 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
               to="/"
@@ -23,7 +23,7 @@ const Nav = () => {
             </Link>
           </li>
           <div className="contents">
-            <li className="flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center sm:flex-none">
               <Link
                 className="flex items-center nav"
                 to="/"
@@ -57,7 +57,7 @@ const Nav = () => {
                 <span className="hide">Work</span>
               </Link>
             </li>
-            <li className="flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center sm:flex-none">
               <Link
                 className="flex items-center nav"
                 to="/about"
@@ -95,7 +95,7 @@ const Nav = () => {
                 <span className="hide">About</span>
               </Link>
             </li>
-            <li className="flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center sm:flex-none">
               <a
                 href="mailto:mariahtao@gmail.com"
                 className="flex items-center nav"
@@ -128,7 +128,7 @@ const Nav = () => {
                 <span className="hide">Contact</span>
               </a>
             </li>
-            <li className="flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center sm:flex-none">
               <a
                 href="https://drive.google.com/file/d/1CjKOAJN56O2eqCk0vMVofPdWmKZhE1Et/view?usp=sharing"
                 className="flex items-center nav"
@@ -166,7 +166,7 @@ const Nav = () => {
                 <span className="hide">Resume</span>
               </a>
             </li>
-            <li className="flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center sm:flex-none">
               <a
                 href="https://www.linkedin.com/in/mariaht8/"
                 className="flex items-center nav"
