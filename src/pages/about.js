@@ -1,7 +1,7 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import CardList from "../components/cardList";
-import CardImg from "../components/cardImg";
+import Layout from "../components/Layout";
+import CardList from "../components/CardList";
+import CardImg from "../components/CardImg";
 import headshot from "../assets/headshot.png";
 
 const AboutPage = () => {

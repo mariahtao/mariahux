@@ -1,5 +1,5 @@
 import * as React from "react";
-import Nav from "./nav.js";
+import Nav from "./Nav.js";
 import { motion, AnimatePresence } from "framer-motion";
 import { Location } from "@reach/router";
 

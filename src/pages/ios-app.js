@@ -1,6 +1,6 @@
 import * as React from "react";
-import Template from "../components/template";
-import CardList from "../components/cardList";
+import Template from "../components/Template";
+import CardList from "../components/CardList";
 import ios from "../assets/ios.png";
 
 const IosAppPage = () => {
