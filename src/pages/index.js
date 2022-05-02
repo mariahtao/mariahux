@@ -93,14 +93,14 @@ const IndexPage = () => {
             href="/ios-app"
           ></Card>
           <Card
-            h2="Snapsheet's CORE + VICE"
+            h2="CORE + VICE"
             badge1="Product designer"
             badge2="User researcher"
             badge3="Tech writer"
             tag1="Fintech"
             tag2="Insurance"
             tag3="SaaS Enterprise"
-            href="/snapsheet"
+            href="/core-vice"
           ></Card>
         </div>
       </div>

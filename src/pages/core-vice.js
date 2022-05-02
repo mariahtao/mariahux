@@ -6,7 +6,7 @@ import snapsheet from "../assets/snapsheet.png";
 const ProjectTrackingPage = () => {
   return (
     <Template
-      pageTitle="Snapsheet's CORE + VICE"
+      pageTitle="CORE + VICE"
       Title="Mariah Tao"
     >
       <div className="space-y-14">
@@ -14,7 +14,7 @@ const ProjectTrackingPage = () => {
           <h2>My role</h2>
           <ul className="mb-0">
             <li className="default">
-              Redesign the internal project tracking software and add new
+              Redesign Snapsheet's internal project tracking software (CORE + VICE) and add new
               features
             </li>
             <li className="default">
