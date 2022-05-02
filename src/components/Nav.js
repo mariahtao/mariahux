@@ -4,7 +4,7 @@ import fav from "../assets/fav.png";
 
 const Nav = () => {
   return (
-    <nav className="block fixed inset-x-0 sm:inset-x-auto h-14 sm:h-auto z-10 bg-grey-100/85 sm:bg-transparent">
+    <nav className="block fixed inset-x-0 sm:inset-x-auto z-10 bg-grey-100/85 sm:bg-transparent">
       <ul className="list-none sm:mb-12 mb-0 sm:space-y-1 h-full flex flex-row sm:flex-col justify-between">
         <div className="flex flex-auto flex-row gap-y-1 sm:gap-x-1 sm:flex-col items-center sm:items-stretch sm:justify-start justify-between">
           <li> 
