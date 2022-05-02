@@ -15,6 +15,16 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Mariah Tao`,
+        start_url: `/`,
+        background_color: `#212529`,
+        display: `standalone`,
+        icon: `src/assets/fav.png`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-direct-import`,
       options: {
         packages: [

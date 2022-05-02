@@ -20,6 +20,7 @@
     "gatsby": "^4.11.2",
     "gatsby-plugin-direct-import": "^1.0.0",
     "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-manifest": "^4.13.0",
     "gatsby-plugin-postcss": "^5.11.0",
     "gatsby-plugin-sharp": "^4.11.1",
     "gatsby-source-filesystem": "^4.12.1",

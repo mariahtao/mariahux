@@ -27,7 +27,7 @@ module.exports = {
       'aqua': {
         100: '#07BEB8',
         200: '#68D8D6',
-        300: '#9CEAEF',
+        300: '#83E1E3',
         400: '#9CEAEF',
         500: '#C4FFF9',
         600: '#E5FFFC',
