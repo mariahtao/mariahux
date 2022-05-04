@@ -21,7 +21,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#212529`,
         display: `standalone`,
-        icon: `src/assets/fav.png`,
+        icon: `src/assets/fav.svg`,
       },
     },
   ],

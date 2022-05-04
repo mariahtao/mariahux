@@ -45,22 +45,22 @@
         @apply list-inside text-aqua-500 mb-0 w-full py-1 font-semibold;
     }
     nav {
-        @apply h-14 sm:h-full sm:w-48 w-full px-8 p-2 sm:p-0 sm:px-0 sm:mb-12 backdrop-blur-3xl;
+        @apply h-16 md:h-full md:w-48 w-full px-8 p-3 md:p-0 md:px-0 md:mb-12 backdrop-blur-3xl;
     }
     link.nav {
-        @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out;
+        @apply p-2 md:px-2 md:py-1.5 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out;
     }
     a.default {
         @apply text-aqua-300 hover:text-aqua-100 transition-all duration-500 ease-in-out;
     }
     a.nav {
-        @apply p-1.5 sm:p-1 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out;
+        @apply p-2 md:px-2 md:py-1.5 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out;
     }
     img {
         @apply mt-6 rounded shadow-2xl shadow-aqua-400/10;
     }
     span.hide {
-        @apply ml-0 sm:ml-3 hidden sm:inline;
+        @apply ml-0 md:ml-3 hidden md:inline;
     }
     span.badge {
         @apply bg-aqua-100/5 text-aqua-100 border border-white/10 text-sm font-semibold px-2 py-1 rounded;
@@ -69,7 +69,7 @@
         @apply text-sm font-medium text-grey-600;
     }
     div.main {
-        @apply pt-0 sm:pt-12 pb-14 max-w-4xl container;
+        @apply pt-0 md:pt-12 pb-14 max-w-4xl container;
     }
     div.card {
         @apply block p-4 bg-grey-200 rounded-md border border-grey-300 shadow-xl shadow-aqua-400/10;

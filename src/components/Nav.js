@@ -1,29 +1,110 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import fav from "../assets/fav.png";
 
 const Nav = () => {
   return (
-    <nav className="block fixed inset-x-0 sm:inset-x-auto z-10 bg-grey-100/85 sm:bg-transparent">
-      <ul className="list-none sm:mb-12 mb-0 sm:space-y-1 h-full flex flex-row sm:flex-col justify-between">
-        <div className="flex flex-auto flex-row gap-y-1 sm:gap-x-1 sm:flex-col items-center sm:items-stretch sm:justify-start justify-between">
-          <li className="nav"> 
+    <nav className="block fixed inset-x-0 md:inset-x-auto z-10 bg-grey-100/85 md:bg-transparent">
+      <ul className="list-none md:mb-12 mb-0 md:space-y-1 h-full flex flex-row md:flex-col justify-between">
+        <div className="flex flex-auto flex-row gap-y-1 md:gap-x-1 md:flex-col items-center md:items-stretch md:justify-start justify-between">
+          <li className="nav">
             <Link
-              className="flex flex-auto sm:flex-none items-center p-1.5 sm:p-1 sm:mb-6 rounded hover:bg-grey-300 transition-all duration-500 ease-in-out"
+              className="flex flex-auto md:flex-none items-center p-0 md:mb-6"
               to="/"
             >
-              <img
-                className="mt-0"
-                width="20"
-                height="20"
-                src={fav}
-                alt="fav logo"
-              ></img>
-              <span className="ml-3">Mariah</span>
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 512 512"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M368.252 1.41c28.369 12.255 2.16 136.1-58.538 276.617-60.699 140.517-132.902 244.495-161.27 232.241-10.901-4.709-13.744-25.895-9.667-58.171.873 18.39 5.471 28.538 11.011 30.931 16.984 7.337 84.586-94.504 139.6-221.862 55.015-127.358 80.721-241.409 63.737-248.745-6.477-2.799-19.575 5.72-37.075 25.802 22.123-27.74 40.74-41.763 52.202-36.812Z"
+                  fill="url(#paint0_linear_368_240501)"
+                />
+                <path
+                  d="M312.507 156.189C286.484 194.917 256 247.039 256 247.039s-69.5-118.277-88-130.826c-18.5-12.548-40-9.344-40-9.344V349.83s7.5 25.821 24 42.051 32 14.017 32 14.017V256.383l56.091 72.799c6.018-11.954 11.725-23.729 16.341-34.048 23.357-52.211 37.865-85.412 56.075-138.945Z"
+                  fill="url(#paint1_linear_368_240501)"
+                />
+                <path
+                  d="M328 279.109v126.789s16 1.919 32.5-14.601S384 349.83 384 349.83V113.157c-3.023 12.021-6.385 23.429-10.333 36.831l-.008.026-.005.015c-1.558 5.291-3.209 10.892-4.966 16.965-13.423 46.388-25.669 78.074-40.688 112.115Z"
+                  fill="url(#paint2_linear_368_240501)"
+                />
+                <path
+                  d="m0 256.456 74.828-71.8S83.5 182 91 182s20 .785 20 .785l-76.345 73.671L111 330s-12 2-20 2c-6.94 0-14.658-2-14.658-2L0 256.456Z"
+                  fill="url(#paint3_linear_368_240501)"
+                />
+                <path
+                  d="m512 256.456-74.828-71.8S428.5 182 421 182s-20 .785-20 .785l76.345 73.671L401 330s12 2 20 2c6.94 0 14.658-2 14.658-2L512 256.456Z"
+                  fill="url(#paint4_linear_368_240501)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_368_240501"
+                    x1="-.441"
+                    y1="511.249"
+                    x2="517.139"
+                    y2="5.234"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#E4FFFC" />
+                    <stop offset="0" stopColor="#07BEB8" />
+                    <stop offset="1" stopColor="#E5FFFC" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_368_240501"
+                    x1="-.441"
+                    y1="511.249"
+                    x2="517.139"
+                    y2="5.234"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#E4FFFC" />
+                    <stop offset="0" stopColor="#07BEB8" />
+                    <stop offset="1" stopColor="#E5FFFC" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint2_linear_368_240501"
+                    x1="-.441"
+                    y1="511.249"
+                    x2="517.139"
+                    y2="5.234"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#E4FFFC" />
+                    <stop offset="0" stopColor="#07BEB8" />
+                    <stop offset="1" stopColor="#E5FFFC" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint3_linear_368_240501"
+                    x1="-.441"
+                    y1="511.249"
+                    x2="517.139"
+                    y2="5.234"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#E4FFFC" />
+                    <stop offset="0" stopColor="#07BEB8" />
+                    <stop offset="1" stopColor="#E5FFFC" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint4_linear_368_240501"
+                    x1="-.441"
+                    y1="511.249"
+                    x2="517.139"
+                    y2="5.234"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#E4FFFC" />
+                    <stop offset="0" stopColor="#07BEB8" />
+                    <stop offset="1" stopColor="#E5FFFC" />
+                  </linearGradient>
+                </defs>
+              </svg>
             </Link>
           </li>
           <div className="contents">
-            <li className="nav flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center md:flex-none">
               <Link
                 className="flex items-center nav"
                 to="/"
@@ -57,7 +138,7 @@ const Nav = () => {
                 <span className="hide">Work</span>
               </Link>
             </li>
-            <li className="nav flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center md:flex-none">
               <Link
                 className="flex items-center nav"
                 to="/about"
@@ -95,7 +176,7 @@ const Nav = () => {
                 <span className="hide">About</span>
               </Link>
             </li>
-            <li className="nav flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center md:flex-none">
               <a
                 href="mailto:mariahtao@gmail.com"
                 className="flex items-center nav"
@@ -128,10 +209,12 @@ const Nav = () => {
                 <span className="hide">Contact</span>
               </a>
             </li>
-            <li className="nav flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center md:flex-none">
               <a
                 href="https://drive.google.com/file/d/1CjKOAJN56O2eqCk0vMVofPdWmKZhE1Et/view?usp=sharing"
                 className="flex items-center nav"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -163,13 +246,15 @@ const Nav = () => {
                     </radialGradient>
                   </defs>
                 </svg>
-                <span className="hide">Resume</span>
+                <span className="hide">Résumé</span>
               </a>
             </li>
-            <li className="nav flex-inital items-center sm:flex-none">
+            <li className="nav flex-inital items-center md:flex-none">
               <a
                 href="https://www.linkedin.com/in/mariaht8/"
                 className="flex items-center nav"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +272,7 @@ const Nav = () => {
             </li>
           </div>
         </div>
-        <div className="hidden sm:inline pb-0 sm:pb-16">
+        <div className="hidden md:inline pb-0 md:pb-16">
           <p className="small">
             Designed and developed with Figma, react.js, and ❤️
           </p>

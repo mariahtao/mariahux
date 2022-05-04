@@ -26,13 +26,13 @@ const variants = {
 
 const Layout = ({ pageTitle, title, children }) => {
   return (
-    <div className="block absolute sm:relative main">
+    <div className="block absolute md:relative main">
       <div className="flex">
         <div className="flex-none">
           <Nav />
         </div>
         <div className="w-full">
-          <main className="flex-auto sm:pt-0 pt-14 sm:ml-56">
+          <main className="flex-auto md:pt-0 pt-24 md:ml-56">
             <Location>
               {({ location }) => (
                 <AnimatePresence>
