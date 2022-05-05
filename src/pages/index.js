@@ -37,8 +37,7 @@ const IndexPage = () => {
           />
         </svg>
         <p>
-          I have <text>5 + years</text> of experience in <text>product development</text> and <text>design systems</text>. In my work, you will find that research and creativity are a
-          vital part of my problem solving process!
+          I have <text>5 + years</text> of experience creating modern web and mobile experiences. I focus on building accessible, human-centered products and <text>design systems</text>.
         </p>
         <p> Here is my selected work. </p>
         <div className="mt-16 space-y-10">
